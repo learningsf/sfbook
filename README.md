@@ -21,6 +21,7 @@ At a later stage it might also be published in EPUB, MOBI or other formats.
 Anyone who has experience with the game is welcome to help. For example, you can help by writing a part of the book (eg. a chapter) or by creating an illustration/infographic for a specific topic.
 
 Before writing anything, open an issue, so that others know what chapter you want to work at, in order to avoid duplicate effort.
+You can check what content is currently being written in the [Projects tab](https://github.com/learningsf/sfbook/projects/1)
 
 The book is written in LaTeX, with the LyX editor. The main file that contains all textual content is [learningsf.lyx](learningsf.lyx).
 This is the file that you need to open and edit with the LyX editor after you checkout the repository.
