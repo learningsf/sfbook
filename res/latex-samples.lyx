@@ -1,0 +1,5 @@
+Float image left:
+\begin{wrapfigure}{l}{0.25\textwidth} \includegraphics[width=0.9\linewidth]{./images/fortress-lvl1.png}  \caption{a level 1 Fortress} \label{fig:wrapfig} \end{wrapfigure}
+
+
+

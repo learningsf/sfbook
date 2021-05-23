@@ -1,4 +1,10 @@
-The Learning Shakes and Fidgets book is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License:
+The Mulish font used on the cover page of the book is licensed under
+the SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007,
+which is available in fonts\Mulish\OFL.txt file in this repository.
+
+The Learning Shakes and Fidgets book is licensed under the Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International License,
+which is available below:
 
 Attribution-NonCommercial-ShareAlike 4.0 International
 
