@@ -32,6 +32,11 @@ The specific version of those tools should not matter, but just in case, these a
 - LyX editor, version 2.3.6.1
 - MiKTeX, 21.2
 
+### Credits
+
+- chrisl21 (https://www.deviantart.com/chrisl21) for the book icon
+- Google for the Mulish Variable font
+
 ### LICENSE
 
 See [LICENSE.txt](LICENSE.txt) file
