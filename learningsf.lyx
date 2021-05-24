@@ -497,13 +497,7 @@ status open
 
 
 \backslash
-begin{center}
-\backslash
-includegraphics[width=0.75
-\backslash
-textwidth]{./images/fortress-capacity.png}
-\backslash
-end{center}
+imgcenter{./images/fortress-capacity.png}
 \end_layout
 
 \end_inset
@@ -574,25 +568,13 @@ status open
 
 
 \backslash
-begin{wrapfigure}{l}{0.10
-\backslash
-textwidth} 
-\backslash
-includegraphics[width=1
-\backslash
-linewidth]{./images/wood-stone.png}
-\backslash
-end{wrapfigure}
+imgleft{./images/wood-stone.png}
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-If you have no wood or stone in your mines, other players steals nothing
- from you, and only receive the bonus that the game gives to them.
+If you have no wood or stone in your mines, other players steal nothing
+ from you, and only receive the bonus that the game gives them.
  The amount of that bonus depends on the level of your woodcutter and stone
  quarry, so the higher the level of those, the better the chances other
  players will be motivated to attack you.
@@ -1149,45 +1131,7 @@ status open
 
 
 \backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-makebox[
-\backslash
-textwidth]{
-\backslash
-includegraphics[width=
-\backslash
-linewidth]{./images/shadow-pets-to-feed.png}}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
+imgfull{./images/shadow-pets-to-feed.png}
 \end_layout
 
 \end_inset
