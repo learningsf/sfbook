@@ -954,6 +954,180 @@ cks with (check the Finding a fortress buddy section below for whys and
 Fortress attacks after 48-h protection
 \end_layout
 
+\begin_layout Standard
+After the initial protection on the server is over, your main source of
+ wood and stone become:
+\end_layout
+
+\begin_layout Itemize
+Fortress attacks and counter-attacks
+\end_layout
+
+\begin_layout Itemize
+Rewards from quests during Fortress event (the Fantastic Fortress Festivity
+ event)
+\end_layout
+
+\begin_layout Itemize
+The 20 spins of wheel of fortune (especially during Fortress events, as
+ reward is x2)
+\end_layout
+
+\begin_layout Itemize
+The dice game (after you unlock Tower)
+\end_layout
+
+\begin_layout Standard
+Fortress attacks give much more wood and stone than you could collect from
+ the Woodcutter or Stone Quarry.
+ Each server is different in that regard, but still it's pretty common to
+ regularly find fortress attacks that give more than 4K wood and 1K stone:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgfull{./images/common-fort-attack.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But to make use of that you need to attack other fortresses multiple times
+ per day.
+ How often depends on the level of Barracks.
+ As was already explained earlier, each level of Barracks give you 3 soldiers,
+ and you want a minimum of 18 soldiers in order to be able to not lose any
+ chances for attacks, while keeping your sanity by not having to make those
+ too often.
+\end_layout
+
+\begin_layout Standard
+Always attack with one soldier.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgfull{./images/fort-attack-1-soldier.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If attack is going to fail with 1 solider (only use more soldiers if it
+ gives lots of resources), and no gold is required to change the opponent,
+ do that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgfull{./images/fort-change-opp-free.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If changing the opponent costs gold, do NOT do that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgfull{./images/fort-change-opp-gold.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Instead, go to MAIL->BATTLES and find a Fortress defence to counter-attack
+ with 1 soldier.
+ By doing a counter-attack you gain resources, and also change the opponent
+ for free.
+ Always check Fortress defences from the bottom of the list first, cause
+ the bottom ones disappear first.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgcenter{./images/fort-counter-attack.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After counter-attack check again what is the next available Fortress attack
+ from FORTRESS->ATTACK .
+ If it would be successful with 1 soldier do that.
+ If not go to Mail->Battles again and search for another counter-attack.
+ Repeat that until you have no soldiers left and build new soldiers.
+\end_layout
+
+\begin_layout Standard
+You can also choose the best counter-attacks (that give the most wood and
+ stone) instead of just doing the one at the bottom at the list.
+ For me collecting stone is harder, so I always choose attacks with most
+ stone, ignoring wood when comparing.
+ Try to find attacks that give 1K stone or close to that.
+\end_layout
+
+\begin_layout Standard
+If you do it long enough you will know the names of the players that give
+ most resources by heart.
+ Some of them will start to counter-attack you, if your wood and stone mines
+ are high level enough (stop at level 10).
+\end_layout
+
+\begin_layout Standard
+If you have such attacks that you know that give lots of resources, but
+ have not soldiers to return the attack, you can save it for later by putting
+ a checkmark in front of it.
+ Once you do that it will go at the top of the list and will stay there
+ until you uncheck it.
+\end_layout
+
 \begin_layout Section
 Finding a fortress buddy
 \end_layout
@@ -964,6 +1138,38 @@ TODO:
 
 \begin_layout Section
 Maximizing event/wheel/dice rewards
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Standard
+Rewards with Fort 20:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Quests during Fortress event
+\series default
+: 15M wood and 5M stone
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+5 wood/5 stone at dice
+\series default
+: 90M wood/30M stone (during event double of that)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Wheel of fortune
+\series default
+: 9M wood/3M stone (again, twice more during event)
 \end_layout
 
 \begin_layout Section
