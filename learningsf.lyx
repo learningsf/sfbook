@@ -36,6 +36,25 @@
 \newcommand{\edition}{First Edition} % Book edition
 \usepackage{wrapfig}
 %----------------------------------------------------------------------------------------
+
+\newcommand{\imgfull}[1]{%
+  \par\vskip-\baselineskip\vskip-\parskip
+  \begin{center}
+  \makebox[\textwidth]{\includegraphics[width=\linewidth]{{#1}}}
+  \end{center}
+  \par\vskip-\baselineskip\vskip-\parskip
+}
+
+\newcommand{\imgcenter}[1]{%
+  \par\vskip-\baselineskip\vskip-\parskip
+  \begin{center}\includegraphics[width=0.75\textwidth]{{#1}}\end{center}
+  \par\vskip-\baselineskip\vskip-\parskip
+}
+
+\newcommand{\imgleft}[1]{%
+  \begin{wrapfigure}{l}{0.10\textwidth} \includegraphics[width=1\linewidth]{{#1}}\end{wrapfigure}%
+  \noindent%
+}
 \end_preamble
 \options ,parfill
 \use_default_options false
