@@ -34,7 +34,7 @@
 \title{Learning Shakes and Fidget} % Book title
 \author{Community Effort} % Author
 \newcommand{\edition}{First Edition} % Book edition
-\usepackage{wrapfig}
+\usepackage{wrapfig,booktabs,longtable}
 %----------------------------------------------------------------------------------------
 
 \newcommand{\imgfull}[1]{%
@@ -54,6 +54,36 @@
 \newcommand{\imgleft}[1]{%
   \begin{wrapfigure}{l}{0.10\textwidth} \includegraphics[width=1\linewidth]{{#1}}\end{wrapfigure}%
   \noindent%
+}
+
+\newcommand{\groupedRowColors}[5][0]{% [#1: offset], #2: group size, #3: start line, #4: color 1, #5: color 2
+    % copied from xcolor.sty
+    \global\rownum=\z@
+    \global\@rowcolorstrue
+    \@ifxempty{#4}%
+        {\def\@oddrowcolor{\@norowcolor}}%
+        {\def\@oddrowcolor{\gdef\CT@row@color{\CT@color{#4}}}}%
+    \@ifxempty{#5}%
+        {\def\@evenrowcolor{\@norowcolor}}%
+        {\def\@evenrowcolor{\gdef\CT@row@color{\CT@color{#5}}}}%
+    % simplified (no check for \if@rowcmd)
+    \def\@rowcolors{%
+        \if@rowcolors
+            \noalign{%
+                \relax
+                \ifnum\rownum<#3
+                    \@norowcolor
+                % I have changed this check:
+                \else \ifodd \numexpr (\rownum-#1)/#2\relax
+                    \@oddrowcolor
+                \else
+                    \@evenrowcolor
+                \fi \fi
+            }%
+        \fi
+    }%
+    \CT@everycr{\@rowc@lors\the\everycr}%
+    \ignorespaces
 }
 \end_preamble
 \options ,parfill
@@ -628,76 +658,399 @@ For this reason you could first use the resources from the Fortress pack
  to build:
 \end_layout
 
-\begin_layout Itemize
-Fortress 1
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+rowcolors{2}{}{lightgray!40}
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 1
+\begin_layout Plain Layout
+
+%
+\backslash
+groupedRowColors{3}{2}{}{green!10}
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 1
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrrr@{}}%
 \end_layout
 
-\begin_layout Itemize
-Fortress 2
+\begin_layout Plain Layout
+
+
+\backslash
+caption{How to use Fortress mushroom pack 
+\backslash
+label{tab:longtab1}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 2
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head first part of table
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 2
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
 \end_layout
 
-\begin_layout Itemize
-Fortress 3
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 3
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 3
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
 \end_layout
 
-\begin_layout Itemize
-Fortress 4
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{continue table}
+\backslash
+
+\backslash
+
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 4
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head following parts of table
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 4
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
 \end_layout
 
-\begin_layout Itemize
-Fortress 5
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 5
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 5
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
 \end_layout
 
-\begin_layout Itemize
-Fortress 6
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
 \end_layout
 
-\begin_layout Itemize
-HoK upgrade 6
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
 \end_layout
 
-\begin_layout Itemize
-Laborers' Quarters 6
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	1	&		&	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	1	&	720	&	240
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	1	&	35	&	12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	2	&	150	&	50
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	2	&	1 408	&	448
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	2	&	138	&	46
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	3	&	440	&	140
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	3	&	2 640	&	800
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	3	&	406	&	129
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	4	&	1 100	&	333
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	4	&	4 800	&	1 536
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	4	&	1 015	&	308
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	5	&	2 500	&	800
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	5	&	9 600	&	3 200
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	5	&	2 308	&	738
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Fortress	&	6	&	6 000	&	2 000
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+HoK upgrade	&	6	&	18 400	&	6 080
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Lab.
+ Quarters	&	6	&	5 538	&	1 849
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -722,48 +1075,309 @@ Next most important buildings to have at that early stage are only level
 1 of Gem Mine and levels 1-5 of Woodcutter and Stone Quarry:
 \end_layout
 
-\begin_layout Itemize
-Gem Mine 1
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrrr@{}}%
 \end_layout
 
-\begin_layout Itemize
-Woodcutter 1
+\begin_layout Plain Layout
+
+
+\backslash
+caption{How to use Fortress mushroom pack 
+\backslash
+label{tab:longtab1}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
 \end_layout
 
-\begin_layout Itemize
-Stone Quarry 1
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head first part of table
 \end_layout
 
-\begin_layout Itemize
-Woodcutter 2
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
 \end_layout
 
-\begin_layout Itemize
-Stone Quarry 2
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
 \end_layout
 
-\begin_layout Itemize
-Woodcutter 3
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
 \end_layout
 
-\begin_layout Itemize
-Stone Quarry 3
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
 \end_layout
 
-\begin_layout Itemize
-Woodcutter 4
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{continue table}
+\backslash
+
+\backslash
+
 \end_layout
 
-\begin_layout Itemize
-Stone Quarry 4
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head following parts of table
 \end_layout
 
-\begin_layout Itemize
-Woodcutter 5
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
 \end_layout
 
-\begin_layout Itemize
-Stone Quarry 5
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Gem Mine	&	1	&	50	&	17
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Woodcutter	&	1	&		&	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Stone Quarry	&	1	&	22	&	
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Woodcutter	&	2	&	30	&	20
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Stone Quarry	&	2	&	90	&	16
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Woodcutter	&	3	&	88	&	56
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Stone Quarry	&	3	&	264	&	45
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Woodcutter	&	4	&	220	&	133
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Stone Quarry	&	4	&	660	&	107
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Woodcutter	&	5	&	500	&	320
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Stone Quarry	&	5	&	1 500	&	256
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -787,31 +1401,239 @@ And in order to do any attacks at all, you also need a decent level of Barracks
  Each level of barracks gives you 3 soldiers.
  It takes 10 minutes to rebuild a single soldier, so, if you have Barracks
  6, it would be enough to make 18 fortress attacks once per 3 hours, without
- losing a single chance for attack:
+ losing a single chance for attack.
 \end_layout
 
-\begin_layout Itemize
-Barracks 1
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolors{2}{}{green!10}
 \end_layout
 
-\begin_layout Itemize
-Barracks 2
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrrr@{}}%
 \end_layout
 
-\begin_layout Itemize
-Barracks 3
+\begin_layout Plain Layout
+
+
+\backslash
+caption{How to use Fortress mushroom pack 
+\backslash
+label{tab:longtab1}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
 \end_layout
 
-\begin_layout Itemize
-Barracks 4
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head first part of table
 \end_layout
 
-\begin_layout Itemize
-Barracks 5
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
 \end_layout
 
-\begin_layout Itemize
-Barracks 6
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level & Wood & Stone
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	1	&	20	&	14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	2	&	82	&	55
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	3	&	240	&	153
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	4	&	600	&	364
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	5	&	1 364	&	873
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Barracks	&	6	&	3 273	&	2 182
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -969,7 +1791,7 @@ Rewards from quests during Fortress event (the Fantastic Fortress Festivity
 \end_layout
 
 \begin_layout Itemize
-The 20 spins of wheel of fortune (especially during Fortress events, as
+The 20 spins at wheel of fortune (especially during Fortress events, as
  reward is x2)
 \end_layout
 
@@ -1011,7 +1833,8 @@ But to make use of that you need to attack other fortresses multiple times
 \end_layout
 
 \begin_layout Standard
-Always attack with one soldier.
+Always attack with 1 soldier (only use more soldiers, if it gives lots of
+ resources).
 \end_layout
 
 \begin_layout Standard
@@ -1031,9 +1854,8 @@ imgfull{./images/fort-attack-1-soldier.png}
 \end_layout
 
 \begin_layout Standard
-If attack is going to fail with 1 solider (only use more soldiers if it
- gives lots of resources), and no gold is required to change the opponent,
- do that.
+If attack is going to fail with 1 solider, and no gold is required to change
+ the opponent, do that.
 \end_layout
 
 \begin_layout Standard
@@ -1073,8 +1895,8 @@ imgfull{./images/fort-change-opp-gold.png}
 \end_layout
 
 \begin_layout Standard
-Instead, go to MAIL->BATTLES and find a Fortress defence to counter-attack
- with 1 soldier.
+Instead, go to MAIL➭BATTLES (B from keyboard) and find a Fortress defence
+ to counter-attack with 1 soldier.
  By doing a counter-attack you gain resources, and also change the opponent
  for free.
  Always check Fortress defences from the bottom of the list first, cause
@@ -1098,34 +1920,69 @@ imgcenter{./images/fort-counter-attack.png}
 \end_layout
 
 \begin_layout Standard
-After counter-attack check again what is the next available Fortress attack
- from FORTRESS->ATTACK .
- If it would be successful with 1 soldier do that.
- If not go to Mail->Battles again and search for another counter-attack.
- Repeat that until you have no soldiers left and build new soldiers.
+Or, since scrolling to the bottom is still kind of slow, pin all Fortress
+ defences to the top of the list, and counter-attack one of them.
 \end_layout
 
 \begin_layout Standard
-You can also choose the best counter-attacks (that give the most wood and
- stone) instead of just doing the one at the bottom at the list.
- For me collecting stone is harder, so I always choose attacks with most
- stone, ignoring wood when comparing.
- Try to find attacks that give 1K stone or close to that.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgfull{./images/fort-counter-attack-pinned.png}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-If you do it long enough you will know the names of the players that give
- most resources by heart.
- Some of them will start to counter-attack you, if your wood and stone mines
- are high level enough (stop at level 10).
+After that check again what is the next available Fortress attack (F from
+ keyboard).
+ If it would be successful with 1 soldier, do that.
+ If not, go to MAIL➭BATTLES again and choose another counter-attack.
+ Repeat until you have no soldiers left and start training new soldiers.
+ Training a soldier takes 10 minutes, so if you have Barracks 6, you can
+ take a deserved brake and come back to do counter-attacks again in 3 hours.
 \end_layout
 
 \begin_layout Standard
-If you have such attacks that you know that give lots of resources, but
- have not soldiers to return the attack, you can save it for later by putting
- a checkmark in front of it.
- Once you do that it will go at the top of the list and will stay there
- until you uncheck it.
+Make this a routine and soon you will know by heart the names of the players
+ that give the most resources.
+ If you need a simple example on what attacks to look for, try to find ones
+ that give 1K stone or more, or at least close to that.
+\end_layout
+
+\begin_layout Standard
+Some of the players that you attack will start to counter-attack you too,
+ if your woodcutter and stone quarry are leveled up enough (eg.
+ at least to lvl 10).
+ That way you will both have more chances for counter-attacks.
+\end_layout
+
+\begin_layout Standard
+Players often ask why one would want others to attack his fortress at all.
+ The reason is that when someone attacks you, he receives more resources
+ than you actually lose.
+ You only lose 50% of the resources in your woodcutter and quarry (as long
+ as you have protection), but the player attacking you is given an extra
+ bonus.
+ This bonus is not taken from you and depends on the level of your resource
+ buildings.
+ Same happens when you attack someone else.
+ So by constantly counter-attacking each other, you both earn that extra
+ bonus, which is much more than what you lose.
+\end_layout
+
+\begin_layout Standard
+When you have no soldiers, but notice a Fortress defense that would give
+ lots of resources, use the pin button to save it for later.
+ Pinned defences move to the top of the list and won't be lost when the
+ list is overwritten with new messages.
 \end_layout
 
 \begin_layout Section
