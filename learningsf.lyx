@@ -582,9 +582,9 @@ Consider that not building defence buildings or units is a sacred law that
 \begin_layout Standard
 Every time someone attacks and defeats your Fortress, you get 24 hour protection.
  During that time other players can't steal anything from your main storage,
- they only take 50% of your woodcutter and stone quarry (for brevity we
- will call those 'mines'), and also a bonus that is not substracted from
- your resources, but is given to them from the game out of thin air.
+ they only take 50% of your woodcutter and stone quarry (also called resource
+ buildings), and also a bonus that is not substracted from your resources,
+ but is given to them from the game out of thin air.
  With each attack your protection is extended with another 24 hours, and
  as that usually happens every 5 minutes, it last almost forever (as long
  as people continue attacking you).
@@ -603,8 +603,9 @@ imgleft{./images/wood-stone.png}
 
 \end_inset
 
-If you have no wood or stone in your mines, other players steal nothing
- from you, and only receive the bonus that the game gives them.
+If you have no wood or stone in your woodcutter and stone quarry, other
+ players steal nothing from you, and only receive the bonus that the game
+ gives them.
  The amount of that bonus depends on the level of your woodcutter and stone
  quarry, so the higher the level of those, the better the chances other
  players will be motivated to attack you.
@@ -615,8 +616,8 @@ On the other hand, if you upgrade the wall or build defence units, less
  people will attack you.
  Thus protection won't be extended and will expire.
  And when someone attacks you without protection, they steal 10% of your
- main storage, which is much more than the 50% in your mines (which are
- usually empty anyway).
+ main storage, which is much more than the 50% in your resource buildings
+ (which are usually empty anyway).
 \end_layout
 
 \begin_layout Standard
@@ -1651,9 +1652,18 @@ All buildings listed above cost 66 201 wood and 23 320 stone, so once those
 
 \begin_layout Standard
 After the inital 48 protection on new servers, your main source of wood
- and stone become fortress attacks, events and wheel (later dice too).
- Mines (Woodcutter and Stone Quarry, called mines for brevity) are only
- relevant as a means to attract others.
+ and stone become fortress attacks, Fortress events and wheel of fortune
+ (dice too, but after you unlock Tower).
+ Woodcutter and Stone Quarry are only relevant as a means to attract others.
+ You can read more on that in section 
+\begin_inset Quotes eld
+\end_inset
+
+Fortress attacks after 48-h protection
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -1677,7 +1687,7 @@ As mentioned above you need Gem Mine level
 Gems are important, but there is a gotcha that catches many players.
  Often new players assume that the higher the level of the mine, the better.
  It is, but not early in the game.
- Upgrading Gem Mine before level 70 (even to level 2) is consired a mistake,
+ Upgrading Gem Mine before level 70 (even to level 2) is considered a mistake,
  and truly slows you down.
 \end_layout
 
@@ -1685,7 +1695,7 @@ Gems are important, but there is a gotcha that catches many players.
 Each level of Gem Mine slightly improves the stats of the gems you receive,
  but there is a trade off.
  With each next level the price of gems increases (they cost more gold,
- wood and stone), and so does the time required to mine a gem.
+ wood and stone), and so does the time required to mine them.
 \end_layout
 
 \begin_layout Standard
@@ -1710,25 +1720,26 @@ For example, with Gem Mine level
 \begin_layout Standard
 As you can see the time needed to find a gem inflates a lot with each next
  level, which means you get less gems.
- Unfortunately you can't use all gems, as only the right gems for your character
- are useful, so that means you could wait for hours for a single gem only
- to find it is for the wrong class (yep, the RNG god often gives you gems
- for other classes, or luck gems, which are considered useless).
+ Unfortunately you can't use all gems, as only some gems are suitable for
+ your character.
+ That means you could have waited for hours for a single gem only to find
+ it is for the wrong class (yep, the RNG god often gives you gems for other
+ classes, or luck gems, which are considered useless).
 \end_layout
 
 \begin_layout Standard
-What's worse, the gold price also inflates a lot, at before level 50 you
- will find it hard to collect enough gold even for the gems that cost only
- 150 gold.
- So early in the game you level up quickly and need that gold for so many
- other things (stats, guild skills, starting raids, buying epics).
+What's worse, the gold price also inflates a lot, and before level 50 you
+ will find it hard to collect enough even for the gems that cost only 150
+ gold.
+ Early in the game you level up quickly and need that gold for so many other
+ things (guild skills, stats, starting raids, buying epics).
 \end_layout
 
 \begin_layout Standard
-And on top of all that, the longer the time needed to mine a gem, the more
- expensive it is to skip waiting with mushrooms.
+And on top of all that, the more time needed to mine a gem, the more expensive
+ it is to skip waiting with mushrooms.
  This is the very reason why fast-leveling try-hard players keep Gem Mine
- to level
+ at level
 \begin_inset space \thinspace{}
 \end_inset
 
@@ -1768,8 +1779,16 @@ Level
 \begin_layout Standard
 You might even manage to do just fine without ever building Smithy.
  Possible if you manage to find active players to exchange fortress counter-atta
-cks with (check the Finding a fortress buddy section below for whys and
- hows), and if those players have no defences (no one should, right?).
+cks with (check the 
+\begin_inset Quotes eld
+\end_inset
+
+Finding a fortress buddy
+\begin_inset Quotes erd
+\end_inset
+
+ section below for whys and hows), as long as those players have no defences
+ (no one should, right?).
 \end_layout
 
 \begin_layout Section
@@ -1825,11 +1844,11 @@ imgfull{./images/common-fort-attack.png}
 \begin_layout Standard
 But to make use of that you need to attack other fortresses multiple times
  per day.
- How often depends on the level of Barracks.
+ How often depends on the level of your Barracks.
  As was already explained earlier, each level of Barracks give you 3 soldiers,
- and you want a minimum of 18 soldiers in order to be able to not lose any
- chances for attacks, while keeping your sanity by not having to make those
- too often.
+ and you want a minimum of 18 soldiers in order to not lose any chances
+ for attacks, while keeping your sanity by not having to make those too
+ often.
 \end_layout
 
 \begin_layout Standard
@@ -1959,7 +1978,7 @@ Make this a routine and soon you will know by heart the names of the players
 
 \begin_layout Standard
 Some of the players that you attack will start to counter-attack you too,
- if your woodcutter and stone quarry are leveled up enough (eg.
+ as long as your woodcutter and stone quarry are leveled up enough (eg.
  at least to lvl 10).
  That way you will both have more chances for counter-attacks.
 \end_layout
@@ -1981,8 +2000,8 @@ Players often ask why one would want others to attack his fortress at all.
 \begin_layout Standard
 When you have no soldiers, but notice a Fortress defense that would give
  lots of resources, use the pin button to save it for later.
- Pinned defences move to the top of the list and won't be lost when the
- list is overwritten with new messages.
+ Pinned defences move to the top and won't be lost when the list is overwritten
+ with new messages.
 \end_layout
 
 \begin_layout Section
@@ -2034,8 +2053,8 @@ Important buildings
 \end_layout
 
 \begin_layout Standard
-The most important buildings you should focus on are Fortress, Gem Mine,
- Academy and Teasury:
+The most important buildings you should focus on are Laborers' Quarters,
+ Fortress, Gem Mine, Academy and Teasury:
 \end_layout
 
 \begin_layout Paragraph*
@@ -2043,11 +2062,11 @@ Laborer Quarters
 \end_layout
 
 \begin_layout Standard
-(further called just Lab), as each level of it reduces by 5% building time
- and time needed to find gems.
+(often called just Lab), as for each level it reduces by 5% the building
+ time and the time needed to find gems.
  Usually this is the first building to upgrade immediately after building
- next level of Fortress, always keeping it same level as Fortress.
- Though people who push for HoK 15 early, stop upgrading the Lab at level
+ next level of Fortress (always keeping it same level as Fortress).
+ Though, people who push for HoK 15 early, stop upgrading the Lab at level
  11 or 12, and continue building it only once they have HoK 15.
  And since Lab is important, if you follow this approach, you should immediately
  upgrade it to level 15 (the max level) as soon as you have bought the HoK
@@ -2059,10 +2078,10 @@ Fortress,
 \end_layout
 
 \begin_layout Standard
-because the amount of the rewards you get from quests during the Forest
- event, and also the amounts you get from the wheel of fortune and the dice
- game, depend on the level of your Fortress building.
- Each level of Fortress doubles those amounts.
+because, as was already explained in the previous section, the amount of
+ the rewards you get from quests during the Forest event, and also the amounts
+ you get from the wheel of fortune and the dice game, depend on the level
+ of your Fortress building.
 \end_layout
 
 \begin_layout Paragraph*
@@ -2072,18 +2091,19 @@ Gem Mine,
 \begin_layout Standard
 because it improves the stats of the gems you receive.
  There are different approaches on when to start upgrading the Gem Mine.
- What most players do is to start upgrading it sometime after level 70-80,
- and have it at level 10 by the time they are level 100-110.
- The reason is that at that level they are very close to reaching the Tower
- dungeon, and having Gem Mine of level 10 is the other requirement to unlock
- the Underworld.
+ What most players do, is to start upgrading it sometime after level 70-80,
+ and have it at level 10 by the time they reach level 100-110.
+ The reason is that around those levels they are strong enough to clear
+ the first 9 dungeons, and to unlock the Tower dungeon.
+ And having Gem Mine level 10 and access to the Tower dungeon are the two
+ requirements for unlocking the Underworld.
 \end_layout
 
 \begin_layout Standard
-It as already explained how long you should keep Gem Mine at level 1 before
- upgrading it to level 10.
+It was already explained how long you should keep Gem Mine at level 1 before
+ pushing it to level 10.
  People also often ask when to start upgrading it beyond level 10.
- As you already know the higher the level of that mine, the longer it takes
+ As you already know, the higher the level of that mine, the longer it takes
  to find gems, and the more wood and stone they cost.
 \end_layout
 
@@ -2121,7 +2141,7 @@ is not very useful early as it gives too little XP when your character is
 
 \begin_layout Standard
 My approach is to usually upgrade Academy to level 10 after getting Gem
- Mine to level 10 and Laborer Quarters to level 11, and then keep it at
+ Mine to level 10 and Laborers' Quarters to level 11, and then keep it at
  that level until I have HoK 15 and Fortress 17-18.
 \end_layout
 
