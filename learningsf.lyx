@@ -34,7 +34,7 @@
 \title{Learning Shakes and Fidget} % Book title
 \author{Community Effort} % Author
 \newcommand{\edition}{First Edition} % Book edition
-\usepackage{wrapfig,booktabs,longtable}
+\usepackage{wrapfig,booktabs,longtable,enumitem}
 %----------------------------------------------------------------------------------------
 
 \newcommand{\imgfull}[1]{%
@@ -377,7 +377,18 @@ As usual we will announce servers in time...as soon as we know the date and
 \end_layout
 
 \begin_layout Standard
-Explain shortly who this book is written for...
+The intended audience of this book are beginner and semi-advanced players,
+ who are not only curious to know how to play, but also why specific approaches
+ are being recommended.
+\end_layout
+
+\begin_layout Standard
+You are currently reading version 0.1 of the book.
+ To get the latest text go to 
+\bar under
+https://github.com/learningsf/sfbook
+\bar default
+.
 \end_layout
 
 \begin_layout Part
@@ -459,50 +470,6 @@ Server start plan
 TODO:
 \end_layout
 
-\begin_layout Itemize
-Join a guild
-\end_layout
-
-\begin_layout Itemize
-If you are not completely F2P, use all gold from the starter pack on guild
- skills and the rest on stats
-\end_layout
-
-\begin_layout Itemize
-Validate account to get extra 10 mushrooms
-\end_layout
-
-\begin_layout Itemize
-Buy the 50% mount with the initial 25 mushrooms, unless you already bought
- the starter pack
-\end_layout
-
-\begin_layout Itemize
-Sell the life potion from the starter pack for 100 gold and buy it again
- cheaper 
-\end_layout
-
-\begin_layout Itemize
-Reach level 2 with 8 arena wins
-\end_layout
-
-\begin_layout Itemize
-Wait guild to be full and other players that are getting the starter pack
- to up their skills
-\end_layout
-
-\begin_layout Itemize
-Reach level 10
-\end_layout
-
-\begin_layout Itemize
-Buy scrapbook from magic shop
-\end_layout
-
-\begin_layout Itemize
-How and why to fill the sticker album in the scrapbook
-\end_layout
-
 \begin_layout Chapter
 Founding the Fortress
 \end_layout
@@ -514,9 +481,9 @@ Once you reach level 25 you will be allowed to build the Fortress building.
 \end_layout
 
 \begin_layout Standard
-The level of Fortress building also determines the amount of wood and stone
- rewards you get from wheel of fortune, dice or quests during the Fortress
- event.
+The level of the Fortress building also determines the amount of wood and
+ stone rewards you get from wheel of fortune, dice or quests during the
+ Fortress event.
 \end_layout
 
 \begin_layout Standard
@@ -544,8 +511,8 @@ What not to build
 \end_layout
 
 \begin_layout Standard
-Without further ado, we have to first tell you which buildings to keep level
- 1 forever and never upgrade beyond that:
+Without further ado, we have to first tell you which buildings to keep at
+ level 1 forever and never upgrade beyond that:
 \end_layout
 
 \begin_layout Itemize
@@ -584,7 +551,7 @@ Every time someone attacks and defeats your Fortress, you get 24 hour protection
  During that time other players can't steal anything from your main storage,
  they only take 50% of your woodcutter and stone quarry (also called resource
  buildings), and also a bonus that is not substracted from your resources,
- but is given to them from the game out of thin air.
+ but is given to them by the game, out of thin air.
  With each attack your protection is extended with another 24 hours, and
  as that usually happens every 5 minutes, it last almost forever (as long
  as people continue attacking you).
@@ -662,6 +629,13 @@ For this reason you could first use the resources from the Fortress pack
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -1049,6 +1023,13 @@ Lab.
 end{longtable}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
 \end_inset
 
 
@@ -1069,16 +1050,20 @@ Ambitious guilds often skip building of everything up to HoK
 \end_layout
 
 \begin_layout Standard
-Next most important buildings to have at that early stage are only level
-\begin_inset space \thinspace{}
-\end_inset
-
-1 of Gem Mine and levels 1-5 of Woodcutter and Stone Quarry:
+Next most important buildings to have at that early stage are only the first
+ level of Gem Mine and levels 1-5 of Woodcutter and Stone Quarry:
 \end_layout
 
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -1093,7 +1078,7 @@ begin{longtable}[c]{@{}lrrr@{}}%
 \backslash
 caption{How to use Fortress mushroom pack 
 \backslash
-label{tab:longtab1}}
+label{tab:longtab2}}
 \backslash
 
 \backslash
@@ -1376,6 +1361,13 @@ Stone Quarry	&	5	&	1 500	&	256
 end{longtable}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
 \end_inset
 
 
@@ -1393,7 +1385,7 @@ Gem Mine is necessary as this is where you find gems, and equipping gems
 \begin_layout Standard
 You need a decent level of Woodcutter and Stone Quarry in order to become
  an attractive target for others to attack, thus having more chances to
- counter-attack yourself.
+ counter-attack others yourself.
 \end_layout
 
 \begin_layout Standard
@@ -1408,6 +1400,13 @@ And in order to do any attacks at all, you also need a decent level of Barracks
 \begin_layout Standard
 \begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -1429,7 +1428,7 @@ begin{longtable}[c]{@{}lrrr@{}}%
 \backslash
 caption{How to use Fortress mushroom pack 
 \backslash
-label{tab:longtab1}}
+label{tab:longtab3}}
 \backslash
 
 \backslash
@@ -1632,6 +1631,13 @@ Barracks	&	6	&	3 273	&	2 182
 end{longtable}
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
 \end_inset
 
 
@@ -1667,7 +1673,7 @@ Fortress attacks after 48-h protection
 \end_layout
 
 \begin_layout Section
-Gotchas
+Catches
 \end_layout
 
 \begin_layout Paragraph*
@@ -1743,7 +1749,7 @@ And on top of all that, the more time needed to mine a gem, the more expensive
 \begin_inset space \thinspace{}
 \end_inset
 
-1 until their character reaches 220-230 level.
+1 until their character reaches 215-225 level.
  To level up quickly they need to change gems very often, and having the
  mine at level
 \begin_inset space \thinspace{}
@@ -1779,20 +1785,11 @@ Level
 \begin_layout Standard
 You might even manage to do just fine without ever building Smithy.
  Possible if you manage to find active players to exchange fortress counter-atta
-cks with (check the 
-\begin_inset Quotes eld
-\end_inset
-
-Finding a fortress buddy
-\begin_inset Quotes erd
-\end_inset
-
- section below for whys and hows), as long as those players have no defences
- (no one should, right?).
+cks with, as long as those players have no defences (no one should, right?).
 \end_layout
 
 \begin_layout Section
-Fortress attacks after 48-h protection
+Fortress attacks after first 48-h
 \end_layout
 
 \begin_layout Standard
@@ -1940,7 +1937,15 @@ imgcenter{./images/fort-counter-attack.png}
 
 \begin_layout Standard
 Or, since scrolling to the bottom is still kind of slow, pin all Fortress
- defences to the top of the list, and counter-attack one of them.
+ defences to the top of the list.
+\begin_inset Newline linebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Then counter-attack them, starting from the top.
 \end_layout
 
 \begin_layout Standard
@@ -1963,7 +1968,8 @@ imgfull{./images/fort-counter-attack-pinned.png}
 After that check again what is the next available Fortress attack (F from
  keyboard).
  If it would be successful with 1 soldier, do that.
- If not, go to MAIL➭BATTLES again and choose another counter-attack.
+ If not, go to MAIL➭BATTLES again, unpin the one you just did, and choose
+ the next one to counter-attack.
  Repeat until you have no soldiers left and start training new soldiers.
  Training a soldier takes 10 minutes, so if you have Barracks 6, you can
  take a deserved brake and come back to do counter-attacks again in 3 hours.
@@ -2005,47 +2011,633 @@ When you have no soldiers, but notice a Fortress defense that would give
 \end_layout
 
 \begin_layout Section
-Finding a fortress buddy
+Maximizing wood/stone rewards
 \end_layout
 
 \begin_layout Standard
-TODO:
-\end_layout
-
-\begin_layout Section
-Maximizing event/wheel/dice rewards
-\end_layout
-
-\begin_layout Standard
-TODO:
+It's tempting for new players to just keep all buildings the same level.
+ And since there is an achievement for upgrading all of them to level 15,
+ many get tricked that this is the expected way to play.
 \end_layout
 
 \begin_layout Standard
-Rewards with Fort 20:
+But practice shows that some buildings are substantially more important
+ than the rest, while others are so useless, that you don't ever need to
+ upgrade them beyond level 1 (as was already explained in first section
+ of this chapter).
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-Quests during Fortress event
-\series default
-: 15M wood and 5M stone
+\begin_layout Standard
+The most important building of all is undisputedly the Fortress building
+ itself.
+ And it's not because you need to build that just to please some Fortress
+ deity, sacrificing your nerves and free time.
+ As always, there is a reasonable explanation.
 \end_layout
 
-\begin_layout Itemize
-
-\series bold
-5 wood/5 stone at dice
-\series default
-: 90M wood/30M stone (during event double of that)
+\begin_layout Standard
+First of all, the amount of the wood and stone rewards that you receive
+ from the wheel of fortune, dice game and quests (quests can give wood and
+ stone only during the Fortress event) depend on the level of the Fortress
+ building.
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\noindent
+For example, you can expect the following wood and stone rewards with Fortress
+ 15:
+\end_layout
 
-\series bold
-Wheel of fortune
-\series default
-: 9M wood/3M stone (again, twice more during event)
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Rewards with Fortress 15 
+\backslash
+label{tab:longtab4}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Fortress lvl 15} & Wood & Stone
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Fortress lvl 15} & Wood & Stone
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{
+\backslash
+textit{Outside Fortress event:}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dice (x5)	&	
+\backslash
+texttildelow{}4.5 million	&	
+\backslash
+texttildelow{}1.5 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Wheel (x3)	&	453600	&	151200
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{
+\backslash
+textit{During Fortress event (x2):}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Quest	&	750000	&	250000
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dice (x5)&	
+\backslash
+texttildelow{}9 million	&	
+\backslash
+texttildelow{}3 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Wheel (x3)&	907200	&	302400
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As you can see above, with Fortress 15, a single quest during the Fortress
+ event rewards you with 750K wood or 250K stone.
+ How many of those quests you will be given during the event depends on
+ pure luck.
+ That is why it's impossible to calculate exactly how much wood and stone
+ you can earn.
+ Yet consider that getting 10+ quests with wood or stone rewards for a single
+ day is pretty common (with 320 thirst per day), and netting +7M wood and
+ +2M stone during the whole event is definitely not unusual.
+\end_layout
+
+\begin_layout Standard
+Each level of Fortress almost doubles the amounts of those rewards.
+ At level 20 of Fortress (the maximum Fortress level), you will see the
+ following rewards:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Rewards with Fortress 20 
+\backslash
+label{tab:longtab5}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Fortress lvl 20} & Wood & Stone
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Fortress lvl 20} & Wood & Stone
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{
+\backslash
+textit{Outside Fortress event:}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dice (x5)	&	90 million	&	30 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Wheel (x3)	&	9 million	&	3 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{
+\backslash
+textit{During Fortress event (x2):}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Quest	&	15 million	&	5 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Dice (x5)&	180 million	&	60 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Wheel (x3)&	18 million	&	6 million
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To make better use of the rewards during the event, you should plan what
+ to build, trying to have the highest level of Fortress possible at the
+ Friday morning, when it starts.
+\end_layout
+
+\begin_layout Standard
+There is a very useful website (https://en.4m7.de/sammelalbum/festung.php)
+ that shows exactly how much resouces each of the Fortress buildings costs,
+ and how much time it takes to build.
+\end_layout
+
+\begin_layout Standard
+I can't recommend you to skip any building time with mushrooms, as that
+ is very expensive.
+ But if you really want and can afford to do that, at least limit yourself
+ to skipping it only on the Fridays during Fortress events.
+ If you skip only the remaining building time, completing the next Fortress
+ level (exactly before starting quests or using dice/wheel), you will still
+ benefit from nearly double rewards during the event, without even skipping
+ a whole level.
+\end_layout
+
+\begin_layout Standard
+Another well known way to maximize rewards is to choose the shortest quests
+ during Fortress events.
+ That is, the shortest quests that have no item/fruit/hourglass reward (you
+ can't find resources with quests that give items/fruits/hourglasses).
+ The goal is to do more quests with same thirst, and thus to have slightly
+ better chance for getting more wood or stone.
 \end_layout
 
 \begin_layout Section
@@ -2065,9 +2657,10 @@ Laborer Quarters
 (often called just Lab), as for each level it reduces by 5% the building
  time and the time needed to find gems.
  Usually this is the first building to upgrade immediately after building
- next level of Fortress (always keeping it same level as Fortress).
- Though, people who push for HoK 15 early, stop upgrading the Lab at level
- 11 or 12, and continue building it only once they have HoK 15.
+ a next level of Fortress (always keeping it same level as Fortress).
+ Though, people who push for HoK 15 early stop upgrading the Lab at level
+ 12 (sometimes even at level 11), and continue building it only once they
+ have HoK 15.
  And since Lab is important, if you follow this approach, you should immediately
  upgrade it to level 15 (the max level) as soon as you have bought the HoK
  15 upgrade.
@@ -2129,20 +2722,66 @@ One can say that leveling up from 225 to 315 is also not that slow, so keeping
  buildings.
 \end_layout
 
+\begin_layout Standard
+Whatever time you choose to do that, make sure that your Fortress is always
+ at least 1 level (may be even 2 levels) above your Gem Mine, or you might
+ find yourself short on wood and stone.
+ This actually matters only if you don't have a serious fortress buddy to
+ exchange counter-attacks with.
+\end_layout
+
+\begin_layout Standard
+I personally keep Gem Mine at level 10 until I have a Fortress of at least
+ level 17 or even 18, then upgrade Gem Mine to level 13-14 as first priorty,
+ before focusing on Fortress 20.
+\end_layout
+
 \begin_layout Paragraph*
 Academy
 \end_layout
 
 \begin_layout Standard
 is not very useful early as it gives too little XP when your character is
- lower level.
+ low level.
  Still, if you completely ignore it, you will lose lots of XP later on.
 \end_layout
 
 \begin_layout Standard
-My approach is to usually upgrade Academy to level 10 after getting Gem
- Mine to level 10 and Laborers' Quarters to level 11, and then keep it at
- that level until I have HoK 15 and Fortress 17-18.
+My approach is to usually upgrade Academy to level
+\begin_inset space ~
+\end_inset
+
+10-11 after getting Gem Mine to level
+\begin_inset space ~
+\end_inset
+
+10 and Laborers' Quarters to level
+\begin_inset space ~
+\end_inset
+
+12, and to keep it at that level until I have Fortress
+\begin_inset space ~
+\end_inset
+
+20.
+ Upgrading Academy to level
+\begin_inset space ~
+\end_inset
+
+20 is my first priority once my Fortress reaches the max level.
+\end_layout
+
+\begin_layout Standard
+If you already have enough resources for next level of Fortress, you could
+ also build a few levels of Academy (eg.
+ to level 12-14) in between, when your Fortress is at level 17-18.
+ It's good to have Academy
+\begin_inset space ~
+\end_inset
+
+14 early, as at that level it can accumulate exactly 8 hours of XP.
+ This means you don't lose any XP while you sleep.
+ And if you sleep longer than that, just build 1 more level.
 \end_layout
 
 \begin_layout Paragraph*
@@ -2167,9 +2806,628 @@ Planning for HoK 20
 \end_layout
 
 \begin_layout Standard
-TODO:
+The fastest way to reach HoK
+\begin_inset space ~
+\end_inset
+
+20 (the maximum), is to build Fortress
+\begin_inset space ~
+\end_inset
+
+20 first (again, the maximum) and only then to buy all of the HoK upgrades.
 \end_layout
 
+\begin_layout Standard
+Of course, you can't stay with HoK
+\begin_inset space ~
+\end_inset
+
+0 until you reach Fortress
+\begin_inset space ~
+\end_inset
+
+20, since the quality of gems (stats) in your guild depends on everyones
+ HoK, yours included.
+ Actually the quality of the gems depends on your level, the level of your
+ gem mine and the guild HoK.
+ But early in the life of a new server players have low levels and Gem Mine
+\begin_inset space ~
+\end_inset
+
+1, so the amount of the guild HoK has the most tangible effect at gem stats
+ in the early game (and thus at progress in dungeons).
+\end_layout
+
+\begin_layout Standard
+The good news is that all HoK upgrades until level
+\begin_inset space ~
+\end_inset
+
+12 actually don't cost much, so there is no reason to save resources for
+ the main building by not bying those.
+ 50 players with HoK
+\begin_inset space ~
+\end_inset
+
+12 amount to total HoK of 600, which means +200 stats on your gems.
+ That is more than enough even for the most ambitious and impatient players,
+ who want to push dungeons and level up quickly.
+\end_layout
+
+\begin_layout Standard
+I often see players who are tricked to believe that small differences in
+ HoK have a huge effect on their characters even at higher levels.
+ Sometimes leaders and officers use small difference in HoK as a reason
+ to kick and replace players (guilty, also happened to me several times).
+ Others protest when someone in the guild has 1-2 less HoK than the average
+ and use that as a reason to change guilds.
+\end_layout
+
+\begin_layout Standard
+As was already explained a HoK of 600 gives you +200 stats on your gems
+ (1/3 of HoK), so if another guild has 660 HoK that means they can only
+ get +20 stats on their gems.
+ If you were level 50 those +20 stats could matter more, but at level 250+
+ (when your Gem Mine is already level 10), those +20 stats can at best help
+ you pass a single floor of a dungeon.
+ Small differences are even more meaningless when you are close to the maximum
+ (max is 1000 HoK, and that happens when your average guild level is at
+ least 370+).
+\end_layout
+
+\begin_layout Standard
+Deviated from the topic a bit, but seemed important to emphasize how insignifica
+nt those small differences are.
+ Now full ahead to HoK 20.
+\end_layout
+
+\begin_layout Standard
+Since HoK uprades from 13 to 20 are much more expensive, it makes sense
+ to make some planning and change the approach once both your Fortress and
+ HoK are level
+\begin_inset space ~
+\end_inset
+
+12.
+ Buying HoK
+\begin_inset space ~
+\end_inset
+
+13 alone costs ~3M wood and ~1M stone.
+ Getting that before Fortress
+\begin_inset space ~
+\end_inset
+
+14 can delay you in collecting enough resources for the main building, which
+ in turn would mean smaller rewards from dice and wheel, or the next Fortress
+ event.
+\end_layout
+
+\begin_layout Standard
+That's why many players stop bying HoK upgrades at 12, and only continue
+ to build Fortress until it's level
+\begin_inset space ~
+\end_inset
+
+15.
+ Once that is ready, they can afford to buy HoK
+\begin_inset space ~
+\end_inset
+
+13-15 almost at once.
+ Now you could ask why stop at Fortress
+\begin_inset space ~
+\end_inset
+
+15 then, why not push to Fortress
+\begin_inset space ~
+\end_inset
+
+20 and only then buy the upgrades.
+\end_layout
+
+\begin_layout Standard
+As was already mentioned, you can't ignore HoK completely.
+ Gem stats depend on that, but what's more important is that each player
+ with HoK
+\begin_inset space ~
+\end_inset
+
+15 in the guild increases everyone's chances to mine black gems.
+ A popular belief is that each HoK
+\begin_inset space ~
+\end_inset
+
+15 in the guild increases the chance with about 1%, so having 50 players
+ with HoK
+\begin_inset space ~
+\end_inset
+
+15 in your guild could give you a chance of 50% to mine a black gem (and
+ +250 stats for your gems).
+\end_layout
+
+\begin_layout Standard
+Once you have HoK
+\begin_inset space ~
+\end_inset
+
+15, make sure to first upgrade your Laborers' Quarters building to level
+\begin_inset space ~
+\end_inset
+
+15.
+ At that level it reduces both the building time and the time for mining
+ of gems by 75%, so getting it should be your first priority.
+ After that feel free to focus only on the Fortress building until it reaches
+ its maximum level of 20.
+\end_layout
+
+\begin_layout Section
+Mid to late build order
+\end_layout
+
+\begin_layout Standard
+There are different approaches to develop your Fortress.
+ What was outlined above is a popular way to max out the main building and
+ HoK, even if you are not too invested in fortress counter-attacks and have
+ no intention to skip any building time.
+ I will often give opionated advice in this book, trying to suggest an approach
+ that works well for most people.
+ To stay true to that, what follows next is a sample build plan for development
+ of Fortress after level
+\begin_inset space ~
+\end_inset
+
+7 (for the early build order check several sections above), which tries
+ to summarize everything said so far:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fortress
+\series default
+, 
+\series bold
+Laborers' Quarters
+\series default
+ and 
+\series bold
+HoK
+\series default
+ until 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+10
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Gem Mine
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+10
+\series default
+ (required to unlock Underworld, but some hardcore players actually keep
+ it level 1 longer and play without Gladiator until level 215-225+);
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Woodcutter
+\series default
+ and 
+\series bold
+Stone Quarry
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+9
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Barracks
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+7/8
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+If you have no fortress buddy to counter-attack with, also upgrade your
+ 
+\series bold
+Smithy
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+9
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+Continue with 
+\series bold
+Fortress
+\series default
+, 
+\series bold
+Laborers' Quarters
+\series default
+ and 
+\series bold
+HoK
+\series default
+ 
+\series bold
+until level
+\begin_inset space ~
+\end_inset
+
+12
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Woodcutter
+\series default
+ and 
+\series bold
+Stone Quarry
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+10
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Academy
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+10
+\series default
+ and 
+\series bold
+Treasury
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+8-10
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+Only Fortress until level
+\begin_inset space ~
+\end_inset
+
+15
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Buy HoKs
+\begin_inset space ~
+\end_inset
+
+13-15
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+Only Laborers' Quarters until level
+\begin_inset space ~
+\end_inset
+
+15;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fortress
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+17/18
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+If you are already level
+\begin_inset space ~
+\end_inset
+
+300+, build 
+\series bold
+Gem Mine
+\series default
+ to level
+\begin_inset space ~
+\end_inset
+
+
+\series bold
+13/14
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+Only Fortress until level
+\begin_inset space ~
+\end_inset
+
+20
+\series default
+\bar default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+Buy HoKs
+\begin_inset space ~
+\end_inset
+
+16-20
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Treasury
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+12/13
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Academy
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+20
+\series default
+;
+\end_layout
+
+\begin_layout Itemize
+Once Academy is lvl 20 you need to 
+\series bold
+focus only on Treasury and Gem Mine
+\series default
+.
+ Which one you push more depends on your style of play (note that 
+\series bold
+max level of Treasury is 50
+\series default
+ and 
+\series bold
+max level of Gem Mine is 100
+\series default
+):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+If you want to be an efficient late-game player, you need more spaces in
+ backpack (to save items for witch, epics for toilet events or dismantling).
+ In that case push the Treasury much more than the Gem Mine.
+ For example, you can upgrade the 
+\series bold
+Gem Mine
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+17/18
+\series default
+ (so that you are not too weak in dungeons and fights), and then push 
+\series bold
+Treasury
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+30+
+\series default
+ before touching Gem Mine again.
+\begin_inset Newline linebreak
+\end_inset
+
+
+\series bold
+Once Treasury is level 50
+\series default
+, keep building only 
+\series bold
+Gem Mine until it reaches level 100
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+If you want to be strong in mid game (here and now, not years later), at
+ the cost of losing gold and arcane splinters (holy gold, who would do anything
+ so outrageous, stop and think again), you can focus more on Gem Mine.
+ If that's your choice, have in mind that there are already players with
+ Gem Mine level
+\begin_inset space ~
+\end_inset
+
+100 at old servers, and it's clear that Gem Mine levels from 50 to 100 barely
+ improve your gem stats at all.
+ So even if you choose this approach, there is 
+\series bold
+no reason to upgrade Gem Mine to more than level
+\begin_inset space ~
+\end_inset
+
+50 before your Treasury is maxed out
+\series default
+.
+ 
+\begin_inset Newline linebreak
+\end_inset
+
+Considering that, you could first upgrade 
+\series bold
+Gem Mine
+\series default
+ to 
+\series bold
+level
+\begin_inset space ~
+\end_inset
+
+20
+\series default
+ (at level
+\begin_inset space ~
+\end_inset
+
+20 you unlock a water pet, if that matters to you), and 
+\series bold
+while mining new gems
+\series default
+ for your char and companions could 
+\series bold
+build a few levels of Treasury
+\series default
+.
+ Next you could 
+\series bold
+focus at Gem Mine, until it reaches level
+\begin_inset space ~
+\end_inset
+
+50
+\series default
+ (building a few Treasury levels here and there in between).
+ Actually, after Gem Mine level
+\begin_inset space ~
+\end_inset
+
+25 you are allowed to upgrade the Gem Mine and search for gems simultaneously,
+ so you don't need to plan when to replace gems anymore.
+\begin_inset Newline linebreak
+\end_inset
+
+Again, 
+\series bold
+once Gem Mine is level
+\begin_inset space ~
+\end_inset
+
+50
+\series default
+ (or even 40), stop upgrading it and make sure to 
+\series bold
+max out Treasury to level
+\begin_inset space ~
+\end_inset
+
+50
+\series default
+ before you continue with the Gem Mine.
+\end_layout
+
+\end_deeper
 \begin_layout Chapter
 Other features unlocked by level 100
 \end_layout
@@ -2182,16 +3440,24 @@ TODO:
 Mirror
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Witch
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 Pets
 \end_layout
 
-\begin_layout Subsection*
-How to find the nest
+\begin_layout Standard
+TODO: First explain how to find the pet nest
 \end_layout
 
 \begin_layout Subsection*
@@ -2203,39 +3469,39 @@ Shadow Pets
 \end_layout
 
 \begin_layout Standard
-Sample graphic with full page width:
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-imgfull{./images/shadow-pets-to-feed.png}
-\end_layout
-
-\end_inset
-
-
+TODO:
 \end_layout
 
 \begin_layout Paragraph
 Light Pets
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Paragraph
 Earth Pets
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Paragraph
 Fire Pets
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Paragraph
 Water Pets
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
@@ -2246,12 +3512,24 @@ The Blacksmith
 Upgrading items
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Paragraph
 What to use splinters for
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Paragraph
 Getting more metal and splinters
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
@@ -2262,8 +3540,16 @@ Toilet
 What does the aura give you
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Paragraph
 What items to throw
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Chapter
@@ -2274,24 +3560,48 @@ Arena Manager
 How often to sacrifice
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 What boosts to buy
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 Getting 7-day skip offers daily
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 What 1000+ runes give you
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 What runes to choose for equipment
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Surviving to max runes
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Chapter
@@ -2302,12 +3612,24 @@ Underworld
 What not to build
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Important buildings
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Sample build order 
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Part
@@ -2322,12 +3644,24 @@ How to spend your shrooms
 Completely F2P
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Eco
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Kiloshrooming
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Chapter
@@ -2338,24 +3672,48 @@ Events
 Weekend events
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Holiday events
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 Black Friday
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Witch event
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 Legendary dungeon
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Choosing a new server
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Chapter
@@ -2363,47 +3721,35 @@ Middle and late game tips
 \end_layout
 
 \begin_layout Section
-Academy vs Gem Mine vs Treasury
+Fighting the Hydra
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 Toilet Aura
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Upgrading items
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Section
 When to switch to gold quests
 \end_layout
 
-\begin_layout Chapter
-Managing a guild
-\end_layout
-
-\begin_layout Section
-Pre-creating a guild
-\end_layout
-
-\begin_layout Section
-Tracking player progress
-\end_layout
-
-\begin_layout Subsection
-Levels, XP and stats gained
-\end_layout
-
-\begin_layout Subsection
-Fortress state
-\end_layout
-
-\begin_layout Subsection
-Dungeons progress
-\end_layout
-
-\begin_layout Subsection
-Comparing runes, equipment and album
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Chapter
@@ -2414,24 +3760,112 @@ Useful resources
 Unofficial discord server
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Section
+Official game forum
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Section
+The en.4m7.de/sammelalbum website
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 sftools
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Subsection
 Dungeon Simulator
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Subsection
 Pet Simulator
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Subsection
 Gold and XP
 \end_layout
 
+\begin_layout Standard
+TODO:
+\end_layout
+
 \begin_layout Section
 Wait, there are more tools...
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Chapter
+Managing a guild
+\end_layout
+
+\begin_layout Section
+Pre-creating a guild
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Section
+Tracking player progress
+\end_layout
+
+\begin_layout Subsection
+Overview of guild players
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Subsection
+Levels, XP and stats gained
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Subsection
+Fortress state
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Subsection
+Dungeons progress
+\end_layout
+
+\begin_layout Standard
+TODO:
 \end_layout
 
 \begin_layout Part*
@@ -2440,6 +3874,166 @@ Frequently Asked Questions
 
 \begin_layout Section*
 How to reach level 200+ in 3 days
+\end_layout
+
+\begin_layout Standard
+TODO:
+\end_layout
+
+\begin_layout Part*
+About this book
+\end_layout
+
+\begin_layout Standard
+Writing this book started as an effort to create a community book for the
+ Shakes and Fidget game, which can be distributed for free, in ebook-compatible
+ formats.
+\end_layout
+
+\begin_layout Standard
+The git repository of this project is located at 
+\bar under
+https://github.com/learningsf/sfbook
+\bar default
+.
+\end_layout
+
+\begin_layout Standard
+When and if this book will be finished is completely unknown and depends
+ on players like you.
+ Want to write a chapter? Join the authors below:
+\end_layout
+
+\begin_layout Section*
+List of authors:
+\end_layout
+
+\begin_layout Subsection*
+Zealot at W40 (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+E~L~Y~S~I~U~M
+\end_layout
+
+\end_inset
+
+), W46 (OLYMPUS):
+\end_layout
+
+\begin_layout Standard
+Chapter 2
+\end_layout
+
+\begin_layout Quotation
+I want to say thank you to many players who helped me with advice when I
+ was starting the game.
+ Can't list everyone here, so excuse me if I forget to mention you.
+\end_layout
+
+\begin_layout Quotation
+Special thanks to nForce@W40, Johny P@W40 and Tolis@W40 who always helped
+ their guild members and created a really nice environment in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+E~L~Y~S~I~U~M
+\end_layout
+
+\end_inset
+
+ guild at W40.
+\end_layout
+
+\begin_layout Quotation
+Thanks to Goddess Lilith for the great leadership at W42 and also for teaching
+ me how to trick the arena merchant to offer 7-day skips daily.
+\end_layout
+
+\begin_layout Quotation
+A thank you is also due to players from rival guilds like MG Aris, KeroMero,
+ Inyourface, Anthoniaco and N3utr4L from W40, who always responded to my
+ stupid noob questions and were always ready to help.
+\end_layout
+
+\begin_layout Quotation
+Also want to express gratitute to the mentors in the unoffical 
+\begin_inset Quotes eld
+\end_inset
+
+S&F's Tarven
+\begin_inset Quotes erd
+\end_inset
+
+ discord server, especially to psychoazubi, suri, Acclamator, Zorago who
+ are investing so much of their time to help other players.
+ It's a pity I joined your discord server so late, after making so many
+ mistakes on my characters.
+\end_layout
+
+\begin_layout Subsection*
+YOUR NAME HERE:
+\end_layout
+
+\begin_layout Standard
+Adopt a chapter now! Learn how to contribute at 
+\bar under
+https://github.com/learningsf/sfbook
+\bar default
+.
+\end_layout
+
+\begin_layout Section*
+License
+\end_layout
+
+\begin_layout Standard
+The Mulish font used on the cover page of the book is licensed under the
+ SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007, which is available
+ in fonts
+\backslash
+Mulish
+\backslash
+OFL.txt file in the git repository of the book.
+\end_layout
+
+\begin_layout Standard
+This book is licensed under the Creative Commons Attribution-NonCommercial-Share
+Alike 4.0 International License.
+ The full text of the license is available in LICENSE.txt file in the git
+ repository.
+\end_layout
+
+\begin_layout Section*
+Disclaimers
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+The authors of this book are not affiliated in any way with the owners of
+ the game 
+\begin_inset Quotes eld
+\end_inset
+
+Shakes and Fidget
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The game is property of its respective owners.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+All screenshots from the game presented in this book, are for demonstration
+ purposes only.
+ Their use here does not imply any endorsement from the owner of the game.
 \end_layout
 
 \end_body
