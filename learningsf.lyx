@@ -383,7 +383,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.1.1 of the book.
+You are currently reading version 0.2.1 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -3377,11 +3377,12 @@ level
 
 20
 \series default
- (at level
+ (each Gem Mine level from 16 to 20 slightly reduces the mining time, and
+ at level
 \begin_inset space ~
 \end_inset
 
-20 you unlock an earth pet, if that matters to you), and 
+20 is when you unlock an earth pet, if that matters to you), and 
 \series bold
 while mining new gems
 \series default
@@ -3608,12 +3609,69 @@ TODO:
 Underworld
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgcenter{./images/underworld-banner.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+After you unlock the Tower dungeon, if you have Gem Mine level 10 or higher,
+ you can find the key to the Underworld (The Hearth of Darkness) in the
+ gem mine.
+\end_layout
+
+\begin_layout Standard
+You can access the Underworld from the Fortress menu (use the coin icon).
+ Similarly to the Fortress, there is also a main structure here (The Hearth
+ of Darkness), and it's level determines what buildings are available to
+ build.
+\end_layout
+
+\begin_layout Standard
+To buy anything in the Underworld you need to have souls (and some minimal
+ gold).
+ Unlike the Fortress, the building that determines the capacity of your
+ resource storage is not the main building, but the Soul Extractor building.
+ That building also determines the amount of rewards during the Days of
+ Doomed Souls event (we'll call that just the Souls event) and also how
+ much souls you get from dice and wheel of fortune.
+\end_layout
+
 \begin_layout Section
 What not to build
 \end_layout
 
 \begin_layout Standard
-TODO:
+Before you learn anything more about the Underworld, you need to know which
+ are the least important buildings:
+\end_layout
+
+\begin_layout Itemize
+Do not build Troll Block until everything else is level 15!
+\end_layout
+
+\begin_layout Itemize
+Do not build Goblin pit until everything else is level 15!
+\end_layout
+
+\begin_layout Standard
+Level 15 is the maximum level for all buildings in the Underworld except
+ for the Gold Pit, but in order to continue upgrading it beyond level 15,
+ you need to first max out all other buildings.
+ That is why even if the two buildings above are completely useless, you
+ still need to upgrade them to the maximum at some point, in order to continue
+ with the Gold Pit.
 \end_layout
 
 \begin_layout Section
@@ -3621,7 +3679,403 @@ Important buildings
 \end_layout
 
 \begin_layout Standard
-TODO:
+Similar to the Fortress, the most important building here is the one that
+ determines the capacity of the storage, and that is the Soul Extractor.
+ So upgrading that should be your first priority and you should keep it
+ several levels above all other buildings until it reaches level
+\begin_inset space ~
+\end_inset
+
+13.
+ With Soul Extractor
+\begin_inset space ~
+\end_inset
+
+13 you get so much resources from quests during the Souls event, that you
+ can collect enough souls to completely finish the other two most important
+ buildings.
+ And those are the Gladiator Trainer and the Adventuromatic (also known
+ as the Time Machine).
+\end_layout
+
+\begin_layout Standard
+Each level of the Gladiator Trainer increases the damage of your critical
+ hits with +5% in all types of fights (dungeons, arena, guild fights, pet
+ fights).
+ At the maximum level of 15, this building brings you +75% critical damage
+ (damage for critical hits is displayed in red during fight replays).
+ Needless to say that having nearly double critical damage is huge, and
+ you want it as soon as possible, as it helps to defeat more dungeons earlier.
+ The Gladiator damage bonus is also applied to critical hits in pet dungeons.
+ Having a Gladiator of level 13+ helps to get a decent chance of defeating
+ the important pets in the habitat dungeons (even the very last pets).
+\end_layout
+
+\begin_layout Standard
+The next most important is the Adventuromatic.
+ It's primary useful feature is that it generates some bonus thirst for
+ you.
+ The amount depends on the level of the building (+1 thirst for each level
+ from 1 to 10 and +2 for each level from 11 to 15).
+\end_layout
+
+\begin_layout Standard
+It generates thirst daily, but there is no need to collect it daily.
+ The bonus thirst accumulates over time, and you can use it anytime you
+ decide.
+ So, at level 15 the Adventuromatic gives you +20 thirst daily, which obviously
+ makes this structure also a high priority.
+\end_layout
+
+\begin_layout Standard
+But collecting souls from the extractor or earning them in quests during
+ the Souls event is not the only source of underworld resources.
+ A significant way to reap more souls is by luring heroes (making underworld
+ attacks).
+\end_layout
+
+\begin_layout Standard
+That's why next on the list is the Underworld Gate.
+ Since the summer update of 2020, the first 5 levels of that building increase
+ the number of heroes you can lure daily by 1.
+ Levels from 6 to 15 increase the amount of souls you get from each hero
+ with 20%.
+ That update made the Underworld Gate similar in function to the Torture
+ Chamber.
+ Yet, not only the gate gives +20% souls for each level (compared to only
+ +10% for the Torture Chamber), but it is also much cheaper to build than
+ the chamber.
+\end_layout
+
+\begin_layout Standard
+In order to win any attacks you also need to have an underworld unit that
+ will fight with those heroes.
+ The only unit worth the investment is the Keeper.
+ To make it stronger you need to upgrade both the level of its building,
+ and also the level of the unit itself.
+ Since both cost precious souls, you only need to upgrade them just enough
+ to be able to defeat the strongest player on the server.
+\end_layout
+
+\begin_layout Standard
+Players in most guilds usually share with other members lists of suitable
+ heroes to attack in underworld.
+ Those heroes are most often players with no equipment and varying levels.
+ You need players with different levels, as the amount of souls reaped depends
+ on the level of the hero you defeat.
+ But there is also a maximum threshold.
+\end_layout
+
+\begin_layout Standard
+You start with a threshold of 1, which means that even if you are capable
+ of defeating a player of level 20, you still get only as much souls as
+ you would get, if you defeated a hero of level 1.
+ The way to increase that threshold is by making successful attacks only.
+ Each successful attack increases the threshold by 1, whereas losing an
+ attack reduces it by 5.
+\end_layout
+
+\begin_layout Standard
+Finding players with no equipment to attack (and low enough level, so you
+ can defeat it with the level of your Keeper building/unit) means you are
+ nearly guaranteed to win.
+ Doing that 5 times per day raises the threshold by 5, at least until you
+ can't anymore find any easy targets.
+\end_layout
+
+\begin_layout Standard
+Once that happens, it's time to consider upgrading your Keeper a bit.
+ Usually you want to keep the Keeper unit (pun intended) a level that is
+ close to the level of the target heroes.
+ As long as upgrading the Keeper unit is much cheaper than upgrading the
+ Keeper building, do that.
+\end_layout
+
+\begin_layout Section
+Soul rewards
+\end_layout
+
+\begin_layout Standard
+It was already emphasized that the most important building to have early
+ on is the Soul Extractor, and the reason is, that it's level determine
+ the amount of rewards from quests (during the Souls event only), dice and
+ wheel of fortune.
+\end_layout
+
+\begin_layout Standard
+Actually rewards from dice and wheel are so small, that they only play a
+ role in the very beginning.
+ That's not the case with the souls you get from quests during the Souls
+ event.
+\end_layout
+
+\begin_layout Standard
+To demonstrate that, here is a comparison of rewards with different levels
+ of the Soul Extractor building:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lrrr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Approximate rewards during Souls event
+\backslash
+label{tab:longtab6}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Soul Extractor lvl} & Quest & Dice & Wheel
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Level} & Quest & Dice & Wheel
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{4}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Level~10	&	
+\backslash
+texttildelow{}109K	&	
+\backslash
+texttildelow{}8K	&	
+\backslash
+texttildelow{}24K
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Level~11	&	
+\backslash
+texttildelow{}225K	&	
+\backslash
+texttildelow{}16K	&	
+\backslash
+texttildelow{}36K
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Level~12	&	
+\backslash
+texttildelow{}510K	&	
+\backslash
+texttildelow{}37K	&	
+\backslash
+texttildelow{}56K
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Level~13	&	
+\backslash
+texttildelow{}1 million	&	
+\backslash
+texttildelow{}75K	&	
+\backslash
+texttildelow{}84K
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As you can see the only rewards worth anything at levels
+\begin_inset space ~
+\end_inset
+
+10+ are the ones from the quests during the event.
+ In fact, once you have Soul Extractor level
+\begin_inset space ~
+\end_inset
+
+13, you can accumulate so many resources during 1-2 events, that you will
+ have enough to raise to level 15 the other two important buildings: Gladiator
+ and Time Machine.
 \end_layout
 
 \begin_layout Section
@@ -3629,7 +4083,1798 @@ Sample build order
 \end_layout
 
 \begin_layout Standard
-TODO:
+Once you unlock the Underworld, you are allowed to get the first pack that
+ contains souls (100K souls).
+ No matter if you want that pack or not, you can start with the following
+ build order:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Early Underworld build order 
+\backslash
+label{tab:longtab7}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All of the above cost about ~80K souls.
+\end_layout
+
+\begin_layout Standard
+If you also get the next pack (the one that gives 150K souls), you will
+ have a total of 170K+ (20K remaining from previous pack), which you can
+ use to upgrade the following:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Sample use of souls from Pro+ pack 
+\backslash
+label{tab:longtab8}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since the new Souls events are not that often anymore, try-hard players
+ tend to skip the above buildings, if a Souls event is about to begin any
+ moment.
+ That way they accumulate more soul rewards during the event.
+\end_layout
+
+\begin_layout Standard
+In general, Underworld is not difficult to max out (except the Gold pit),
+ so spending mushrooms on skipping of building time is not worth it, unless
+ you are on the track of fast-leveling.
+ In that case, getting a better Gladiator might justify boosting the early
+ building levels a bit.
+\end_layout
+
+\begin_layout Standard
+I usually try to get Extractor level
+\begin_inset space ~
+\end_inset
+
+8 before touching any of the less important buildings:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Build order until Extractor lvl 8 
+\backslash
+label{tab:longtab9}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Keeper	&	1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Keeper	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Keeper	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But first levels of those are cheap enough, so you could adapt the build
+ order and start working on them earlier.
+ Assume it's situational.
+ If a Souls event is on the door, focus on Extractor, if not, build a few
+ early levels of those.
+\end_layout
+
+\begin_layout Standard
+Next goal is to get Souls Extractor to level
+\begin_inset space ~
+\end_inset
+
+13.
+ But since that is a bit expensive in terms of souls, you should build a
+ few levels of other important buildings in between:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Build order until Extractor lvl~13 
+\backslash
+label{tab:longtab10}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Underworld Gate	&	7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	1
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	2
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	3
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	4
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	5
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	13
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	13
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The Keeper building is not listed in above table, but that does not mean
+ you should ignore it completely.
+ When to upgrade it depends a lot on what is the level of your current hero
+ targets.
+ If you've already reached a point where you cannot defeat higher level
+ targets, you will need to either upgrade the building or the Keeper unit,
+ whichever is cheaper overall.
+\end_layout
+
+\begin_layout Standard
+If you have lots of luck with the order of events you could quickly reach
+ Soul Extractor
+\begin_inset space ~
+\end_inset
+
+13 without paying too much attention to the attack buildings (Keeper, Undergroun
+d Gate, Torture Chamber).
+ Unfortunately with the new events that is rarely the case, so when you
+ notice the next levels of the important buildings cost too much, upgrade
+ the Keeper and Underground Gate a bit in between.
+ As was explained earlier, the Underworld Gate is cheap, so many people
+ keep it the same level as the Hearth of Darkness all the time.
+\end_layout
+
+\begin_layout Standard
+Once you have Soul Extractor level
+\begin_inset space ~
+\end_inset
+
+13, you should stop upgrading that (also stop upgrading Keeper, Underworld
+ Gate, Torture Chamber) and focus on getting Hearth
+\begin_inset space ~
+\end_inset
+
+15, Gladiator
+\begin_inset space ~
+\end_inset
+
+15 and Adventuromatic
+\begin_inset space ~
+\end_inset
+
+15, before you continue with anything else:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}lr@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Build order after Extractor lvl~13 
+\backslash
+label{tab:longtab11}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Building & Level 
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{white}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{2}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	6
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	7
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	8
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	13
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Hearth	&	15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Gladiator	&	15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	9
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	10
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	11
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	12
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	13
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Adventuromatic	&	15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	14
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Extractor	&	15
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As soon as the Extractor hits level 15, focus only on the Gold Pit.
+ Unlike other structures the Gold pit can be upgraded even beyond level
+ 15, but in order to do that, you must first bring all other underworld
+ structures to level 15.
+ The Gold Pit does not give that much gold before level 25 (eg., at level
+ 22 it mines 11,465,760 gold per day), so push it to that level non-stop,
+ even if that means you won't be able to collect it.
+ The reason for that is after level 25 you are allowed to collect gold while
+ it's upgrading.
 \end_layout
 
 \begin_layout Part
@@ -3924,7 +6169,7 @@ E~L~Y~S~I~U~M
 \end_layout
 
 \begin_layout Standard
-Chapter 2
+Chapter 2, Chapter 5
 \end_layout
 
 \begin_layout Quotation
