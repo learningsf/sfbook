@@ -8,11 +8,16 @@ This repository contains the LaTeX code and all accompanying resources needed to
 
 ### How to get the book
 
-Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.2.1):
+Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.2.2):
 
 [<img src="images/twopage-screenshot.jpg">](https://learningsf.github.io/sfbook/learningsf.pdf)
 
 Currently this is work in progress and if, and when it will be finished, is completely unknown.
+
+So far the following chapters/topics are somewhat ready:
+
+- [Chapter 2 - Founding the Fortress](https://learningsf.github.io/sfbook/learningsf.pdf#page=11)
+- [Chapter 5 - Underworld](https://learningsf.github.io/sfbook/learningsf.pdf#page=50)
 
 At a later stage it might also be published in EPUB, MOBI or other formats.
 
