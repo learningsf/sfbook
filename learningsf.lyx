@@ -56,6 +56,12 @@
   \noindent%
 }
 
+\newcommand{\icocenter}[1]{%
+  \par\vskip-\baselineskip\vskip-\parskip
+  \begin{center}\includegraphics[height=1cm]{{#1}}\end{center}
+  \par\vskip-\baselineskip\vskip-\parskip
+}
+
 \newcommand{\groupedRowColors}[5][0]{% [#1: offset], #2: group size, #3: start line, #4: color 1, #5: color 2
     % copied from xcolor.sty
     \global\rownum=\z@
@@ -383,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.2.2 of the book.
+You are currently reading version 0.3.1 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -1041,7 +1047,7 @@ Ambitious guilds often skip building of everything up to HoK
 \end_inset
 
 6 (costs ~132 mushrooms) at the very start of the server.
- That helps them to reach total guild HoK of 300 as early as day 2 of server.
+ That helps them to reach total guild HoK of 300 as early as day #2 of server.
  And HoK 300 means +100 stats for your gems (compared to HoK
 \begin_inset space \thinspace{}
 \end_inset
@@ -6111,16 +6117,1383 @@ Dungeons progress
 TODO:
 \end_layout
 
-\begin_layout Part*
+\begin_layout Chapter
 Frequently Asked Questions
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
+How to reach level 110+ in 3-4 days
+\end_layout
+
+\begin_layout Subsection*
+Warnings
+\end_layout
+
+\begin_layout Standard
+Let's first start with some warnings.
+\end_layout
+
+\begin_layout Standard
+Reaching level 110-120 in first few days of a server is possible, but expensive.
+ In the long run it makes no sense, and is a waste of mushrooms, unless
+ you are aiming for a top rank on the server.
+ Even if that is the case, you can only benefit from that, if you plan to
+ keep pushing long-term.
+ If you ever stop pushing at the same rate, other players who started slower
+ (and cheaper) can catch up with you later, with overall less budget.
+\end_layout
+
+\begin_layout Standard
+Again, pushing early, and then chilling in eco or free to play mode, is
+ a complete waste, and only worth for the thrill.
+\end_layout
+
+\begin_layout Subsection*
+Primary Goal
+\end_layout
+
+\begin_layout Standard
+Ambitious people aiming at top ranks sometimes do that in order to unlock
+ Pets, Arena Manager and Underworld sooner.
+ In this way they get an earlier advantage to most players in rune bonuses,
+ pets, and the gladiator critical damage bonus.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The most important milestone is to reach level 50 at day #2, or at latest,
+ in the morning of day #3
+\series default
+.
+ Thus you can start buying epics from the shops before the initial multi-event
+ is over.
+\end_layout
+
+\begin_layout Standard
+It helps a lot, if you have a guild with the following requirements:
+\end_layout
+
+\begin_layout Itemize
+4/6 (or 5/5) skills at the very start
+\end_layout
+
+\begin_layout Itemize
+everyone level 25+ at end of day #1
+\end_layout
+
+\begin_layout Itemize
+everyone HoK 6 at end of day #1
+\end_layout
+
+\begin_layout Subsection*
+Budget
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Expected cost is between 1K and 2K mushrooms per day
+\series default
+.
+ The exact amount depends on the choice of class, previous experience and
+ the guild.
+ Given some luck, classes like berserker, scout and druid are more likely
+ to defeat dungeon monsters that are of a much higher level than the player,
+ so the cost for them is lower than for the rest.
+\end_layout
+
+\begin_layout Standard
+That's especially true for the berserker, as its rage attack ability sometimes
+ allows it to kill an enemy without taking a single hit.
+ This is also the only special class ability that also works against mages,
+ which makes mage dungeons extremely easy for the berserker class.
+ So, if you just want to try fast-leveling as an experiment, it would be
+ 
+\series bold
+most cost-efficient to do it with the berserker class
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The pace of your progress is also influenced a lot by the guild bonuses
+ and HoK.
+ To make it cheaper, you need a guild where everyone plans to increase their
+ guild skills to 4/6 (or 5/5) with the Starter Pack, at the very start of
+ the server.
+\end_layout
+
+\begin_layout Standard
+Since in the beginning gem stats depend entirely on the guild HoK, it also
+ helps a lot to be part of an ambitious guild.
+ Better HoK means better gems and more stats, so you will find it easier
+ to defeat dungeons earlier.
+ This is only possible if everyone pushes to level 25+ at the end of day
+ #1, in order to unlock the Fortress pack.
+ The resources from that pack are necessary in order to skip to HoK 6 (costs
+ only about ~130 mushrooms).
+\end_layout
+
+\begin_layout Standard
+Most of the steps in this guide have been tested with a battle mage character,
+ in an ambitious guild.
+ It went a bit outside the budget, but if you use another class, it should
+ work better.
+\end_layout
+
+\begin_layout Standard
+Enough blabber, time for action.
+\end_layout
+
+\begin_layout Subsection*
+General tips
+\end_layout
+
+\begin_layout Itemize
+When changing weapon 
+\series bold
+compare only maximum damage
+\series default
+, ignore minimum and average damage.
+\end_layout
+
+\begin_layout Itemize
+If you can't find a good epic weapon, choose one with main stat only.
+\end_layout
+
+\begin_layout Itemize
+Once you unlock Gem Mine, 
+\series bold
+only equip items with gem sockets
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+After you unlock Gem Mine, 
+\series bold
+keep base stats in 50/50 ratio
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Only increase luck while it's cheap.
+ Having at least 15-20% chance for critical hits is good to have.
+\end_layout
+
+\begin_layout Subsection*
+Farming gold
+\end_layout
+
+\begin_layout Standard
+When you are low on gold, and need that to raise stats, you can find players
+ in the hall of fame that give the maximum gold possible (equal to their
+ level), and attack them repeatedly until you steal all the gold.
+ After the player drops too much in rank compared to you, you will stop
+ earning any gold from him.
+\end_layout
+
+\begin_layout Standard
+To get around that, spend the gold, unequip as much of your equipment (especiall
+y the weapon), and attack him a few times.
+ Thus you raise him in rank, while lowering yourself.
+ Equip your items again and continue attacking him until your are sure he
+ has no more gold.
+\end_layout
+
+\begin_layout Standard
+If you hear anyone talking about 'farming arena for gold', that is what
+ he means.
+\end_layout
+
+\begin_layout Standard
+Another way to earn extra gold is to buy the 50% mount multiple times.
+ Each time you buy it, you get an environmental gold reward.
+ But be careful with that, as it is very expensive, especially before level
+ 35.
+ Yet, good to know.
+\end_layout
+
+\begin_layout Standard
+If you don't have enough gold to buy new equipment, or gems, or whatever,
+ the above options can help you to proceed further without doing too much
+ quests (saving the thirst for later).
+\end_layout
+
+\begin_layout Subsection*
+Day 1
+\end_layout
+
+\begin_layout Standard
+Goals for end of day #1:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reach level 26+
+\series default
+ (34+ for berserkers/scouts/druids), although even a battle mage can reach
+ level 31-32 on day #1, as long as you go outside of the budget enough;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collect 45%-50% of album
+\end_layout
+
+\begin_layout Standard
+Let's start:
+\end_layout
+
+\begin_layout Enumerate
+Join the guild.
+\end_layout
+
+\begin_layout Enumerate
+Buy the Starter Pack.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Sell the hitpoints potion for 100 gold
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Upgrade your Treasure and Instructor skills to 4/6 (or 5/5, if that is what
+ the guild decided)
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Buy small potions.
+\end_layout
+
+\begin_layout Enumerate
+Use remaining gold on main stat and constitution (before you unlock gems,
+ try to have slightly more main stat than const).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Wait until all 50 players have 4/6 skills and the guild has 40% GOLD and
+ 60% XP bonuses (or 50% / 50%).
+\end_layout
+
+\begin_layout Enumerate
+Don't do any arena fights yet, save them for later.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests only until you reach level 10.
+\series default
+
+\begin_inset Newline linebreak
+\end_inset
+
+
+\series bold
+Only choose XP quests!
+\series default
+ Calculate which quests give the most XP per minute of thirst.
+\end_layout
+
+\begin_layout Enumerate
+If you are a druid, equip the bear mask.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 10
+\series default
+ stop doing quests, refresh Magic Shop, and 
+\series bold
+buy Scrapbook
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Equip your character with all items (except Talisman, you can't buy it from
+ the shop before level 15).
+\end_layout
+
+\begin_layout Enumerate
+Spend remaining gold on stats.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Login from another device to get the +5 stats for the achievement.
+\end_layout
+
+\begin_layout Enumerate
+Start attacking players in the Hall of fame in order to fill the album.
+ Choose players with different levels and classes.
+\end_layout
+
+\begin_layout Enumerate
+Your goal 
+\series bold
+at level 10 is to fill about 25% of album
+\series default
+ before touching quests.
+ If you want to have more than that, you need to raise your stats enough,
+ so that you are able to defeat higher level players.
+ That would be too expensive, so stop around 25% (550 stickers).
+\end_layout
+
+\begin_layout Enumerate
+Don't forget to spend all gold for stats, after each attack.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do a few quests
+\series default
+ (hopefully 2-3 only), until you find the 
+\series bold
+key for the first dungeon
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Since you raised your stats with gold while you were filling the album,
+ you might be able to kill the first 3-4 monsters.
+ In general the idea is to always 
+\series bold
+try dungeons before doing more quests
+\series default
+.
+ Clearing a few floors of a dungeon gives you enough XP to level up, which
+ means you will later play quests at a higher level, receiving more XP from
+ your thirst.
+\end_layout
+
+\begin_layout Enumerate
+If you have a PC and lots of free time, you can save some mushrooms by using
+ the Dungeon Simulator from sftools to check the chances for winning a dungeon,
+ before actually trying it (https://sftools.mar21.eu/dungeons.html, thank mar21
+ from the Tavern Discord for creating this!).
+\end_layout
+
+\begin_layout Enumerate
+Once blocked at the dungeon, try improving album again.
+ You should be higher level now, and can defeat more players with stickers
+ you need.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Wait until about 1-2 hours before server reset time
+\series default
+ (communicate that with your guild first, as some people find that selfish),
+ so that more players have increased their guild skills, and there are also
+ more stickers available on the server.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests to reach level 15
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Refresh the Magic Shop to 
+\series bold
+buy a Talisman and medium potions
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Refresh the Weapon Shop and 
+\series bold
+buy a new weapon
+\series default
+ (of course also check if other items offered are better).
+ You will change all items at level 18 again.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Clear 1-2 more dungeon floors.
+
+\series default
+ When you reach the Banshee monster (with level 22) you can stop, as it
+ is hard to defeat at level 15 for most classes.
+\end_layout
+
+\begin_layout Enumerate
+Around level 15 it should be possible to collect enough gold to upgrade
+ your Treasure skill (if you went for 4/6) or Instructor (if you went for
+ 5/5).
+\end_layout
+
+\begin_layout Enumerate
+Since you changed equipment and are stronger now, you can 
+\series bold
+improve album again
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests to reach level 18.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Buy new equipment.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Defeat 1-2 more dungeons.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Improve album again.
+ By that time you should have at least 35% of album.
+\end_layout
+
+\begin_layout Enumerate
+If you have lots of time on your hands, try to get the achievement for 3
+ wins in a row against the gambler.
+ That gives you only +5 stats on everything, but if you use the `/gold bet
+ 1` command in the chat box, it doesn't cost much gold.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests to reach level 20
+\series default
+ and to find the 
+\series bold
+key for the second dungeon
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Try both dungeons again.
+\end_layout
+
+\begin_layout Enumerate
+If you are very close to completing a level, do 1-2 quests to close the
+ level, before changing items.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Change all items with better.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Improve album.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Next goal is to reach level 25 at reset time.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Try dungeons again.
+\end_layout
+
+\begin_layout Enumerate
+If you are blocked and want to reach more than level 25 in the first day,
+ farm arena, improve stats, change some items and try again.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+If you find farming arena expensive, do more quests, but try saving about
+ 30-50 thirst, so you have some chance to find the key for the third dungeon
+ (unlocks at level 30).
+\end_layout
+
+\begin_layout Enumerate
+If you are very close to level 25, but still not there, use your 10 arena
+ fights to close the level.
+\end_layout
+
+\begin_layout Enumerate
+At level 25, if you are a druid, change to cat mask and only use that from
+ now on (try bear mask against mages sometimes, but it rarely helps).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 25, build Fortress level 1 and get the Fortress mushroom pack.
+\end_layout
+
+\begin_layout Enumerate
+The fortress pack gives you 1 level for free, so you will immediately get
+ to level 26.
+\end_layout
+
+\begin_layout Enumerate
+Use the resources from the pack to 
+\series bold
+skip your Fortress to level
+\begin_inset space ~
+\end_inset
+
+6 and to buy HoK
+\begin_inset space ~
+\end_inset
+
+6
+\series default
+.
+ Use the remaining resources as shown in section 'Early build order' in
+ Chapter 2.
+\end_layout
+
+\begin_layout Enumerate
+If everyone in the guild is expected to skip to HoK 6, wait until the guild
+ has about 250-300 total HoK (can happen only when most people are level
+ 25+).
+\end_layout
+
+\begin_layout Enumerate
+Meanwhile, if you are a druid, try dungeons again without changing any equipment
+, but this time with cat mask.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Buy new equipment with sockets.
+ From now on never use an item without socket again.
+\end_layout
+
+\begin_layout Enumerate
+Once you unlock gems, 
+\series bold
+level up your base main and const stats equally
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Farm gold and 
+\series bold
+skip for gems
+\series default
+.
+ You want more main gems than const gems (eg.
+ 6 main and 3 const).
+ The ratio of your 
+\series bold
+total main and const stats should be close to 60/40
+\series default
+ (total, not base).
+ You can achieve that with gems and equipment.
+ For now it does not matter if the gem is small, medium or big, so use whatever
+ you find.
+\end_layout
+
+\begin_layout Enumerate
+If you are a berserker, you can even equip blue gems only.
+ That would allow you to kill more harder dungeons (with many tries), but
+ will also cost you more tries in easier dungeons.
+\end_layout
+
+\begin_layout Enumerate
+Farming gold for gems at that level is expensive, so 
+\series bold
+you could stop for 1st day, if you are already over budget
+\series default
+.
+ That way you will also give more time to players in your guild to also
+ improve HoK.
+\begin_inset Newline linebreak
+\end_inset
+
+
+\series bold
+So, if you are already at least level 26, and want to stop for today:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Finish the remaining thirst.
+\end_layout
+
+\begin_layout Enumerate
+Do 20 spins on the wheel.
+\end_layout
+
+\begin_layout Enumerate
+Spend the gold on guild skills, and whatever remains on stats.
+\end_layout
+
+\begin_layout Enumerate
+Improve album, trying to reach 50%.
+\end_layout
+
+\begin_layout Enumerate
+Wait for reset time.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+If you want to continue pushing beyond level 26,
+\series default
+ your 
+\series bold
+next goal is reaching level 30
+\series default
+ (to unlock next dungeon).
+\begin_inset Newline linebreak
+\end_inset
+
+
+\series bold
+To do that you need to have some thirst left
+\series default
+.
+ If that is the case:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Farm gold, up stats and change equipment (if you made any levels).
+\end_layout
+
+\begin_layout Enumerate
+Farm gold and skip for new gems.
+\end_layout
+
+\begin_layout Enumerate
+Try dungeons.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Repeat above 3 steps until you are level 30
+\series default
+ (if you are a hair's breadth from lvl 30, use any remaining arena fights
+ to close the level).
+\end_layout
+
+\begin_layout Enumerate
+Find the 
+\series bold
+key to next dungeon in quests
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Spam the new dungeon until you reach level 32.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 32 buy large potions and try dungeons again.
+\end_layout
+
+\begin_layout Enumerate
+Finish any remaining thirst.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do 20 spins on the wheel.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Spend the gold on guild skills
+\series default
+, and whatever remains on stats.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Improve album to 50%
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Wait for reset time.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Day 2
+\end_layout
+
+\begin_layout Standard
+Goals for end of day #2:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reach level 60+
+\series default
+ (berserkers/scouts/druids can do more, eg.
+ 90+, in that case also check instructions for day #3);
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collect 58% of album
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+main goal during day #2 is to reach level 50+
+\series default
+, in order to shop for epics.
+ Alternatively, as a minimum you could try to reach something close to level
+ 50, for example lvl 47.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+If you stopped at level 26 the previous day:
+\series default
+
+\begin_inset Newline linebreak
+\end_inset
+
+First, aim for 
+\series bold
+level 30
+\series default
+, in order to 
+\series bold
+unlock third dungeon
+\series default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Do quests until you reach level 30.
+\end_layout
+
+\begin_layout Enumerate
+Find the key to next dungeon in quests.
+\end_layout
+
+\begin_layout Enumerate
+Try dungeons.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 32 buy large potions.
+\end_layout
+
+\begin_layout Enumerate
+Change equipment, gems and up stats.
+\end_layout
+
+\begin_layout Enumerate
+Now that you have large potions and new equip, try dungeons again, until
+ blocked.
+\end_layout
+
+\begin_layout Enumerate
+Improve album.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+From now on, if you read 'Try/push dungeons', assume that includes changing
+ of equipment and gems.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Next goal
+\series default
+ is to reach 
+\series bold
+level 40+
+\series default
+ in order to 
+\series bold
+unlock 4th dungeon
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests to get to level 40
+\series default
+, but try to 
+\series bold
+leave about 100 thirst
+\series default
+ in order to be able 
+\series bold
+to find the keys for 4th and 5th dungeons
+\series default
+ later.
+\end_layout
+
+\begin_layout Enumerate
+If you stopped at level 26 the previous day, you might find it hard to reach
+ level 40, while saving that much thirst.
+ You already know the way to compensate for that - farm gold, improve your
+ char and push dungeons.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 40
+\series default
+, use some of the saved thirst to 
+\series bold
+find the key to dungeon 4
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Try the new dungeon.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Around level 44,
+\series default
+ if you feel this is overrunning your budget, stop for today.
+ 
+\series bold
+Level 44 on day #2 is not bad
+\series default
+.
+ If that is the case:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Finish remaining thirst.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do 20 spins on the wheel.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Spend the gold on guild skills
+\series default
+, and whatever remains on stats.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Improve album to +58%
+\series default
+ or close to that.
+\end_layout
+
+\begin_layout Enumerate
+Wait for reset time.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+If you want to continue, 
+\series bold
+push dungeons until level 50
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 50
+\series default
+ use some thirst to 
+\series bold
+find key to dungeon 5
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Farm gold
+\series default
+ in order to 
+\series bold
+buy epics
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Fully 
+\series bold
+equip with socketed epics
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+After getting epics you can 
+\series bold
+reach level 60+
+\series default
+.
+ Leveling up more is possible, but might be too expensive for most classes.
+\end_layout
+
+\begin_layout Enumerate
+Since 
+\series bold
+no dungeon unlocks at level 60 (next key is at level 70)
+\series default
+, you'd better stop for day #2:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\series bold
+Finish remaining thirst.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do 20 spins on the wheel.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Spend the gold on guild skills
+\series default
+, and whatever remains on stats.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Improve album to +58%.
+\end_layout
+
+\begin_layout Enumerate
+Start city guard and continue the next day.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection*
+Day 3
+\end_layout
+
+\begin_layout Standard
+Goals for end of day #3:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reach level 90+
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collect 62% of album.
+\end_layout
+
+\begin_layout Standard
+The two primary goals for day #3 are to 
+\series bold
+reach level 70
+\series default
+ in order to 
+\series bold
+buy the key for dungeon 6
+\series default
+, and 
+\series bold
+level 75
+\series default
+ in order 
+\series bold
+to unlock pets
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Start with quests, but try to 
+\series bold
+save about 80-100 thirst for the key and the pet nest
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+Don't forget to try dungeons again at every 1-2 levels.
+\end_layout
+
+\begin_layout Enumerate
+If you are really blocked, and you don't intend to keep Gem mine at level
+ 1 for a long time (eg.
+ until level 215-225), 
+\series bold
+upgrade Gem Mine a bit, but only a few levels (eg.
+ max up to level
+\series default
+ 
+\series bold
+3-4
+\series default
+).
+\end_layout
+
+\begin_layout Enumerate
+When you reach 
+\series bold
+level 70
+\series default
+, 
+\series bold
+buy the key for the 6th dungeon from the Magic Shop
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+You already know what to do after you unlock a new dungeon.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 75
+\series default
+ do quests to 
+\series bold
+find the pet nest
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+If you have more than 50 thirst left
+\series default
+, try to do only quests, which would allow you to 
+\series bold
+find some of the pets that boost your main stat or const
+\series default
+.
+ 
+\series bold
+Save about 50 thirst
+\series default
+ in order to find the 
+\series bold
+next key
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Don't forget to also fight in pet dungeons, as they give good XP at those
+ levels.
+\end_layout
+
+\begin_layout Enumerate
+Once they start selling for about 200 gold, 
+\series bold
+you can mine gems in order to sell them
+\series default
+.
+ This would probably be profitable only after level 75-80 (don't remember
+ exactly when).
+\end_layout
+
+\begin_layout Enumerate
+At 
+\series bold
+level 80
+\series default
+ do quests to 
+\series bold
+find the next key
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Try dungeons until level 85.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 85 skip gems to find the Holy Grail
+\series default
+ (you already have 1000+ stickers in album), and 
+\series bold
+hunt for the missing stickers
+\series default
+ that are available on the server.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 90
+\series default
+, make sure to 
+\series bold
+upgrade some of your items
+\series default
+ (don't upgrade weapon, only upgrade others, don't focus on one item, upgrade
+ them equally), 
+\series bold
+but after changing equipment
+\series default
+.
+ Those extra stats might be what you need to clear a dungeon floor.
+\end_layout
+
+\begin_layout Enumerate
+If you already upgraded Gem Mine to level 10, you might want to extract
+ gems from old equipment, instead of selling it.
+ Of course, when the gems get old, you will still need to replace them.
+\end_layout
+
+\begin_layout Enumerate
+Try dungeons for the last time today.
+\end_layout
+
+\begin_layout Enumerate
+At 
+\series bold
+level 95
+\series default
+ you can 
+\series bold
+find the key for dungeon 8
+\series default
+ (on a quest).
+ But since you probably have no thirst left, there is no point to push that
+ much.
+ Leave that for the next day.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Finish thirst, do 20 spins, up guild skills to 10/10 and start city guard.
+\end_layout
+
+\begin_layout Subsection*
+Day 4
+\end_layout
+
+\begin_layout Standard
+Goals for end of day #4:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Reach level 110-120+
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Collect 66% of album.
+\end_layout
+
+\begin_layout Standard
+The major goal for day #4 is to reach level 95 and to unlock dungeon 8.
+ Once you do that it should be relatively easy to reach level 110.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Do quests to reach level 95.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Find key for dungeon 8
+\series default
+ in quest.
+\end_layout
+
+\begin_layout Enumerate
+If you don't intend to keep your Gem mine at level
+\begin_inset space ~
+\end_inset
+
+1 any longer (eg.
+ until level 215-225), it is a good time to 
+\series bold
+upgrade the Gem Mine to level
+\begin_inset space ~
+\end_inset
+
+10
+\series default
+, and to equip better gems.
+ Upgrading the mine helps a lot in dungeons, but skipping gems with mine
+ 10 costs a lot.
+ Decide that for yourself.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Dungeon 8
+\series default
+ can lead you somewhere around 
+\series bold
+level 105
+\series default
+ without much pushing, but to get the next key you need level 110.
+\end_layout
+
+\begin_layout Enumerate
+The good news is the key for dungeon 9 can be bought from Weapon Shop, so
+ you don't have to leave any thirst.
+\end_layout
+
+\begin_layout Enumerate
+But don't push yourself too much, even if you don't reach level 110 before
+ reset time, you can do that immediately after reset time.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 110 buy the next key from the Weapon Shop.
+\end_layout
+
+\begin_layout Enumerate
+If you improve your character enough, you should be able to clear all first
+ 9 dungeons.
+ That will unlock the Tower, and will allow you to get the first pack that
+ gives souls.
+ You can read more on how to develop the Underworld in Chapter 5.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+At level 125
+\series default
+ remember to 
+\series bold
+skip gems for the key to Shadow world
+\series default
+ (you can find that even with gem mine level 1).
+ 
+\series bold
+The Twister dungeon gives lots of gold for stats and buying of epics.
+\end_layout
+
+\begin_layout Enumerate
+Once you unlock the Tower, 
+\series bold
+completely ignore the companions until around level 150-160
+\series default
+.
+ At lower levels you can only use them as extra backpack space.
+\end_layout
+
+\begin_layout Section
 How to reach level 200+ in 3 days
 \end_layout
 
 \begin_layout Standard
-TODO:
+TODO: Actually I would not try to write that.
+ Any volunteers?
 \end_layout
 
 \begin_layout Part*
@@ -6167,7 +7540,7 @@ E~L~Y~S~I~U~M
 \end_layout
 
 \begin_layout Standard
-Chapter 2, Chapter 5
+Chapter 2, Chapter 5, How to reach level 110+ in 3-4 days
 \end_layout
 
 \begin_layout Quotation
