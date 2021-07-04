@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.3.1 of the book.
+You are currently reading version 0.3.2 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -3981,7 +3981,7 @@ showrowcolors
 
 Level~10	&	
 \backslash
-texttildelow{}109K	&	
+texttildelow{}225K	&	
 \backslash
 texttildelow{}8K	&	
 \backslash
@@ -3996,7 +3996,7 @@ texttildelow{}24K
 
 Level~11	&	
 \backslash
-texttildelow{}225K	&	
+texttildelow{}500K	&	
 \backslash
 texttildelow{}16K	&	
 \backslash
@@ -4011,7 +4011,7 @@ texttildelow{}36K
 
 Level~12	&	
 \backslash
-texttildelow{}510K	&	
+texttildelow{}1 million	&	
 \backslash
 texttildelow{}37K	&	
 \backslash
@@ -4033,7 +4033,7 @@ rowcolor{green!10}
 
 Level~13	&	
 \backslash
-texttildelow{}1 million	&	
+texttildelow{}2 million	&	
 \backslash
 texttildelow{}75K	&	
 \backslash
