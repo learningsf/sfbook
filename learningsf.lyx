@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.3.2 of the book.
+You are currently reading version 0.3.3 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -6312,7 +6312,7 @@ If you hear anyone talking about 'farming arena for gold', that is what
 Another way to earn extra gold is to buy the 50% mount multiple times.
  Each time you buy it, you get an environmental gold reward.
  But be careful with that, as it is very expensive, especially before level
- 35.
+ 35, and you can still progress enough without that.
  Yet, good to know.
 \end_layout
 
@@ -6454,11 +6454,12 @@ at level 10 is to fill about 25% of album
  before touching quests.
  If you want to have more than that, you need to raise your stats enough,
  so that you are able to defeat higher level players.
- That would be too expensive, so stop around 25% (550 stickers).
+ That might be expensive, so you can stop around 25% (550 stickers) and
+ continue improving album to +40% at level 15 (when you equip better potions).
 \end_layout
 
 \begin_layout Enumerate
-Don't forget to spend all gold for stats, after each attack.
+Don't forget to spend all gold for stats after each attack.
 \end_layout
 
 \begin_layout Enumerate
@@ -6556,6 +6557,8 @@ Since you changed equipment and are stronger now, you can
 improve album again
 \series default
 .
+ At that level, you can already collect between 30% and 40% of album, how
+ much depends on your budget.
 \end_layout
 
 \begin_layout Enumerate
@@ -6580,7 +6583,8 @@ Defeat 1-2 more dungeons.
 
 \series bold
 Improve album again.
- By that time you should have at least 35% of album.
+ By that time you should have at least 35% of album, but +40% is highly
+ recommended.
 \end_layout
 
 \begin_layout Enumerate
@@ -6757,10 +6761,6 @@ So, if you are already at least level 26, and want to stop for today:
 
 \begin_deeper
 \begin_layout Enumerate
-Finish the remaining thirst.
-\end_layout
-
-\begin_layout Enumerate
 Do 20 spins on the wheel.
 \end_layout
 
@@ -6770,6 +6770,10 @@ Spend the gold on guild skills, and whatever remains on stats.
 
 \begin_layout Enumerate
 Improve album, trying to reach 50%.
+\end_layout
+
+\begin_layout Enumerate
+Finish the remaining thirst.
 \end_layout
 
 \begin_layout Enumerate
@@ -6839,10 +6843,6 @@ At level 32 buy large potions and try dungeons again.
 \end_layout
 
 \begin_layout Enumerate
-Finish any remaining thirst.
-\end_layout
-
-\begin_layout Enumerate
 
 \series bold
 Do 20 spins on the wheel.
@@ -6862,6 +6862,12 @@ Spend the gold on guild skills
 Improve album to 50%
 \series default
 .
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Finish any remaining thirst.
 \end_layout
 
 \begin_layout Enumerate
@@ -6889,7 +6895,7 @@ Reach level 60+
 \begin_layout Itemize
 
 \series bold
-Collect 58% of album
+Collect 58%-60% of album
 \end_layout
 
 \begin_layout Standard
@@ -7033,10 +7039,6 @@ Level 44 on day #2 is not bad
 
 \begin_deeper
 \begin_layout Enumerate
-Finish remaining thirst.
-\end_layout
-
-\begin_layout Enumerate
 
 \series bold
 Do 20 spins on the wheel.
@@ -7053,9 +7055,13 @@ Spend the gold on guild skills
 \begin_layout Enumerate
 
 \series bold
-Improve album to +58%
+Improve album to +58-60%
 \series default
  or close to that.
+\end_layout
+
+\begin_layout Enumerate
+Finish remaining thirst.
 \end_layout
 
 \begin_layout Enumerate
@@ -7124,12 +7130,6 @@ no dungeon unlocks at level 60 (next key is at level 70)
 \begin_layout Enumerate
 
 \series bold
-Finish remaining thirst.
-\end_layout
-
-\begin_layout Enumerate
-
-\series bold
 Do 20 spins on the wheel.
 \end_layout
 
@@ -7144,7 +7144,13 @@ Spend the gold on guild skills
 \begin_layout Enumerate
 
 \series bold
-Improve album to +58%.
+Improve album to +58-60%.
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Finish remaining thirst.
 \end_layout
 
 \begin_layout Enumerate
@@ -7209,16 +7215,14 @@ Don't forget to try dungeons again at every 1-2 levels.
 \begin_layout Enumerate
 If you are really blocked, and you don't intend to keep Gem mine at level
  1 for a long time (eg.
- until level 215-225), 
-\series bold
-upgrade Gem Mine a bit, but only a few levels (eg.
- max up to level
-\series default
- 
-\series bold
-3-4
-\series default
-).
+ until level 215-225), upgrade Gem Mine a bit, but only a few levels (eg.
+ max up to level 3-4).
+ If you are berserker, scout or druid, you won't really need to do that
+ though.
+ You should be able to progress even with Gem Mine 1.
+ And keeping Gem Mine at level 1 longer is better, since it will be much
+ cheaper (both in terms of gold and mushrooms) to replace gems.
+ So do that only as a last resort.
 \end_layout
 
 \begin_layout Enumerate
@@ -7283,8 +7287,7 @@ Once they start selling for about 200 gold,
 you can mine gems in order to sell them
 \series default
 .
- This would probably be profitable only after level 75-80 (don't remember
- exactly when).
+ This would probably be profitable only after level 80.
 \end_layout
 
 \begin_layout Enumerate
@@ -7319,8 +7322,14 @@ hunt for the missing stickers
 
 \begin_layout Enumerate
 If you already upgraded Gem Mine to level 10, you might want to extract
- gems from old equipment, instead of selling it.
+ gems from old equipment.
  Of course, when the gems get old, you will still need to replace them.
+ The problem is, when you extract the gem, the item is destroyed and you
+ can't sell it for gold.
+ And you need that gold to buy new epics.
+ This is another reasons why it is good to keep Gem Mine at level 1 while
+ fast-leveling.
+ That way you can just sell your old epics and skip for new gems.
 \end_layout
 
 \begin_layout Enumerate
@@ -7345,7 +7354,9 @@ find the key for dungeon 8
 \begin_layout Enumerate
 
 \series bold
-Finish thirst, do 20 spins, up guild skills to 10/10 and start city guard.
+Do 20 spins, up guild skills to 10/10, finish thirst, and start city guard
+ so that it ends several minutes before reset time (so that you can collect
+ the gold reward before the x5 multiplier from the event expires).
 \end_layout
 
 \begin_layout Subsection*
@@ -7390,6 +7401,18 @@ Find key for dungeon 8
 \end_layout
 
 \begin_layout Enumerate
+At some point you might find out that changing epics is just not enough
+ to continue, even if you have the best ones.
+ If that happens, the reason could be that you neglected your base stats.
+ So, remember to also use some of your gold to upgrade the stats.
+ You can check how much you need, by looking at other players with a similar
+ level to yours.
+ You could also use the dungeon simulator, adding arbitrary points to your
+ base stats, until the chances of defeating the dungeon become at least
+ 1%.
+\end_layout
+
+\begin_layout Enumerate
 If you don't intend to keep your Gem mine at level
 \begin_inset space ~
 \end_inset
@@ -7404,8 +7427,8 @@ upgrade the Gem Mine to level
 10
 \series default
 , and to equip better gems.
- Upgrading the mine helps a lot in dungeons, but skipping gems with mine
- 10 costs a lot.
+ Upgrading the mine helps a lot in dungeons, but, as was already pointed
+ out, skipping gems with mine 10 costs a lot.
  Decide that for yourself.
 \end_layout
 
@@ -7466,7 +7489,9 @@ Once you unlock the Tower,
 completely ignore the companions until around level 150-160
 \series default
 .
- At lower levels you can only use them as extra backpack space.
+ At lower levels you can only use them as extra backpack space, keeping
+ useless items longer, so that you have a chance to sell some of them to
+ the witch.
 \end_layout
 
 \begin_layout Section
@@ -7518,7 +7543,7 @@ E~L~Y~S~I~U~M
 
 \end_inset
 
-), W46 (OLYMPUS):
+), W46 (OLYMPUS), W50 (PROJECT ALPHA):
 \end_layout
 
 \begin_layout Standard
