@@ -1,0 +1,18 @@
+Recently started a project that aims to create a community book for the game.
+The book will be distributed for free, and will be published in PDF, chapter by chapter.
+Just finished the first chapter (actually it's numbered Chapter 2), which is about the Fortress aspect of the game, and publishing it here too:
+https://learningsf.github.io/sfbook/learningsf.pdf
+
+
+
+
+
+Publishing the first chapter of the book "Learning Shakes and Fidget"
+
+
+
+
+
+When it's completely finished, will also be published in other ebook-compatible formats.
+
+You can learn more about the book at the project repository: https://github.com/learningsf/sfbook/
