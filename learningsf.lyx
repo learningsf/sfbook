@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.3.4 of the book.
+You are currently reading version 0.3.5 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -596,6 +596,15 @@ On the other hand, if you upgrade the wall or build defence units, less
 \begin_layout Standard
 Not only that, but you will also have less chances to counter-attack, as
  few people will attack you in the first place, because of the strong defence.
+\end_layout
+
+\begin_layout Standard
+Also, have in mind that the amount of resources you receive from fortress
+ attacks also depends on the Fortress level of yourself and your opponent.
+ If your opponent has equal or higher Fortress level than you, then you
+ get the full attack amount.
+ If his Fortress level is lower than yours the amount is reduced, and if
+ the difference is more than 3 levels, you win nothing.
 \end_layout
 
 \begin_layout Section

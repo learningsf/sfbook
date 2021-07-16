@@ -8,7 +8,7 @@ This repository contains the LaTeX code and all accompanying resources needed to
 
 ### How to get the book
 
-Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.3.4):
+Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.3.5):
 
 [<img src="images/twopage-screenshot.jpg">](https://learningsf.github.io/sfbook/learningsf.pdf)
 
