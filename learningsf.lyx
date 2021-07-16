@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.3.3 of the book.
+You are currently reading version 0.3.4 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -6429,6 +6429,17 @@ buy Scrapbook
 \begin_layout Enumerate
 Equip your character with all items (except Talisman, you can't buy it from
  the shop before level 15).
+ At level 10 you can find items with +20 stats (total main+constitution),
+ but you need to refresh the shops much more to find those.
+ Actually you can use the following simple rule to determine what are the
+ maximum stats of items you can find in shops: 
+\shape italic
+\bar under
+MaxItemStats = 2 x CharacterLevel
+\shape default
+\bar default
+.
+ This is not precise, but is good enough in practice.
 \end_layout
 
 \begin_layout Enumerate
@@ -6621,6 +6632,7 @@ If you are very close to completing a level, do 1-2 quests to close the
 
 \series bold
 Change all items with better.
+ At level 20 you can find items with +40 total stats.
 \end_layout
 
 \begin_layout Enumerate
@@ -6805,6 +6817,7 @@ To do that you need to have some thirst left
 \begin_deeper
 \begin_layout Enumerate
 Farm gold, up stats and change equipment (if you made any levels).
+ Around level 30 you can find items with +60 total stats.
 \end_layout
 
 \begin_layout Enumerate
@@ -6949,6 +6962,7 @@ At level 32 buy large potions.
 
 \begin_layout Enumerate
 Change equipment, gems and up stats.
+ Around level 30 you can find items with +60 total stats.
 \end_layout
 
 \begin_layout Enumerate
