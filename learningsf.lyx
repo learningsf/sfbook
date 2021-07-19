@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.4.0 of the book.
+You are currently reading version 0.4.1 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -3732,7 +3732,7 @@ each attraction generates almost as much as all other earlier attractions
 .
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Minimal usage of mushrooms
 \end_layout
 
@@ -3746,8 +3746,8 @@ When you unlock last two attractions (the toilet and straying monster),
  get both the speed and money boost for both of them (25+50+75+100 mushrooms).
 \end_layout
 
-\begin_layout Section
-Limited use of mushrooms per month
+\begin_layout Subsection
+Limited use of mushrooms
 \end_layout
 
 \begin_layout Standard
@@ -3794,8 +3794,8 @@ And by the time you make progress to +30% damage runes, dungeons will be
  At best it will assist you to clear several floors and gain 1-2 levels.
 \end_layout
 
-\begin_layout Section
-Fastest way possible to reach max rune bonuses
+\begin_layout Subsection
+Fastest way to max bonuses
 \end_layout
 
 \begin_layout Standard
