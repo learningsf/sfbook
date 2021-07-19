@@ -8,7 +8,7 @@ This repository contains the LaTeX code and all accompanying resources needed to
 
 ### How to get the book
 
-Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.3.5):
+Click the screenshot below to get an unfinished copy of the book in PDF format (version 0.4.0):
 
 [<img src="images/twopage-screenshot.jpg">](https://learningsf.github.io/sfbook/learningsf.pdf)
 
@@ -17,8 +17,9 @@ Currently this is work in progress and if, and when it will be finished, is comp
 So far the following chapters/topics are somewhat ready:
 
 - [Chapter 2 - Founding the Fortress](https://learningsf.github.io/sfbook/learningsf.pdf#page=11)
-- [Chapter 5 - Underworld](https://learningsf.github.io/sfbook/learningsf.pdf#page=50)
-- [How to reach level 110+ in 3-4 days](https://learningsf.github.io/sfbook/learningsf.pdf#page=76)
+- [Chapter 4 - Arena Manager](https://learningsf.github.io/sfbook/learningsf.pdf#page=48)
+- [Chapter 5 - Underworld](https://learningsf.github.io/sfbook/learningsf.pdf#page=62)
+- [How to reach level 110+ in 3-4 days](https://learningsf.github.io/sfbook/learningsf.pdf#page=88)
 
 At a later stage it might also be published in EPUB, MOBI or other formats.
 

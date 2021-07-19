@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.3.5 of the book.
+You are currently reading version 0.4.0 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -3572,20 +3572,245 @@ TODO:
 Arena Manager
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+imgcenter{./images/arena-manager-banner.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At level 105 the Arena Manager mini-game unlocks.
+ The goal is to gain runes, and once you collect 1000+, you can find items
+ with rune bonuses.
+ The more runes you have, the better those bonuses are.
+\end_layout
+
+\begin_layout Standard
+At the picture above you can see that the arena money and runes you have
+ already gained are shown at the left side.
+\end_layout
+
+\begin_layout Standard
+You start with one arena attraction (the seat).
+ Attractions generate arena money (even when you are not online and playing).
+ The more you improve the attractions, the more money they generate.
+ You use the money to improve the attractions, so they generate more money.
+\end_layout
+
+\begin_layout Standard
+All the money you invested in your arena since the last sacrifice are automatica
+lly converted to runes.
+ That amount of runes is shown at the right side, as part of the [SACRIFICE]
+ button.
+ You can collect those runes by clicking the sacrifice button, resetting
+ all your arena progress.
+\end_layout
+
+\begin_layout Standard
+Each rune gained increases with +5% the money profit from all attractions.
+\end_layout
+
+\begin_layout Section
+How to upgrade attractions
+\end_layout
+
+\begin_layout Standard
+When you start, improve the attraction that has the lowest MIN price.
+ It's a good rule to follow even later, but it also depends on how close
+ the attraction is to the next milestone (25, 50, 100, 250, 500, 1000, 2500,
+ 5000, 10000).
+\end_layout
+
+\begin_layout Standard
+Each time an attraction reaches such a milestone, it doubles its profit,
+ and reduces the time required to fill the attraction with 1/3.
+ So, it makes sense to first upgrade attractions that are closer to the
+ next milestone, even if they have a higher MIN price.
+\end_layout
+
+\begin_layout Standard
+Likewise, when two attractions have a similar MIN price, it's more efficient
+ to upgrade the one with less upgrades.
+ For example, if you upgrade an attraction that reached 100+, it will boost
+ the overall profit more than if you would upgrade a higher attraction that
+ reached 500+.
+\end_layout
+
+\begin_layout Standard
+Another rule you can follow for efficient progress, is to keep difference
+ between two consecutive attractions between 50 and 100 upgrades.
+ This remains true until the very end of that game.
+\end_layout
+
 \begin_layout Section
 How often to sacrifice
 \end_layout
 
 \begin_layout Standard
-TODO:
-\end_layout
-
-\begin_layout Section
-What boosts to buy
+When you start, if you have lots of time to rebuild the progress of the
+ attractions, you can make first sacrifice when you have between 10 and
+ 20 runes waiting to be sacrificed.
+ If you don't have too much time at that moment, wait for 20 runes.
 \end_layout
 
 \begin_layout Standard
-TODO:
+After that, until you collect about 1 million runes, sacrifice each time
+ runes double their amount (the amount of runes waiting to be sacrificed
+ at the button is the same as the amount of runes you have already gained).
+\end_layout
+
+\begin_layout Standard
+It's a good idea to sacrifice during the day, so you have enough time to
+ rebuild attractions before the night.
+ In this way they can accumulate more money while you sleep.
+\end_layout
+
+\begin_layout Standard
+Once the toilet attraction reaches 1000 (or even if it reaches 500), you
+ should start to sacrifice more often, not waiting for runes to double anymore
+ (more than once per day).
+ 
+\series bold
+The ideal is to sacrifice every time the toilet attraction fills (1 cycle
+ of toilet)
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+The reason for this is that last attractions generate the most arena cash,
+ but they also have the largest amortization, so if you wait runes to double,
+ amortization accumulates and last attractions are not that efficient.
+\end_layout
+
+\begin_layout Standard
+Sacrificing each time the toilet attraction fills might be the fastest way,
+ but since that takes way too much time, no one really does that.
+ If you manage to sacrifice at least 5 times per day, you will still do
+ better than most players.
+\end_layout
+
+\begin_layout Section
+What boosts/offers to buy
+\end_layout
+
+\begin_layout Standard
+What boosts to buy depends on your playstyle, so let's split that in 3 parts:
+\end_layout
+
+\begin_layout Subsection
+Completely free to play
+\end_layout
+
+\begin_layout Standard
+Don't buy boosts on the first attractions at all and don't buy any skip
+ offers.
+\end_layout
+
+\begin_layout Standard
+When you unlock last attraction, get both the speed and money boost for
+ the toilet attraction (25+50 mushrooms).
+ It takes time to collect those, but it's worth it.
+\end_layout
+
+\begin_layout Standard
+The reason for buying boosts for last attraction only is that 
+\series bold
+each attraction generates almost as much as all other earlier attractions
+ combined together
+\series default
+.
+\end_layout
+
+\begin_layout Section
+Minimal usage of mushrooms
+\end_layout
+
+\begin_layout Standard
+Don't buy boosts on the first attractions at all and don't buy any skip
+ offers.
+\end_layout
+
+\begin_layout Standard
+When you unlock last two attractions (the toilet and straying monster),
+ get both the speed and money boost for both of them (25+50+75+100 mushrooms).
+\end_layout
+
+\begin_layout Section
+Limited use of mushrooms per month
+\end_layout
+
+\begin_layout Standard
+At first buy both the speed and money boosts for the first attraction only
+ (the seat).
+\end_layout
+
+\begin_layout Standard
+After that buy several 7-day skips in order to reach 1 million runes faster.
+ At that amount you can find items with '+2% Hit point' runes.
+ Equip 8 such items, and you will have a total of +15% extra hit points
+ (the maximum you can get is +15%).
+\end_layout
+
+\begin_layout Standard
+Once you have those you can continue buying skip offers here and there,
+ until you unlock the last 4 attractions.
+ When that happens, buy both boosts for those last 4 attractions (toilet,
+ straying monster, snacks and VIP seat).
+ All those boosts (plus the first seat) cost 1300 mushrooms.
+\end_layout
+
+\begin_layout Standard
+Only continue buying 7-day skip offers until you reach 25% damage bonus.
+ Following this start buying them only occasionally, for example if you
+ feel it gets so slow that you just can't stand that (eg.
+ between Tredecillion and Quattuordecillion).
+ Check one of the next sections on tips how to force the merchant to offer
+ you 7-day skips every day, even if you don't have all boosts.
+\end_layout
+
+\begin_layout Standard
+Having 25% damage runes on the weapon will help you push early dungeons
+ more easily.
+ About the same time rune generation slows down to a crawl, so even if you
+ had all boosts, you would still need to wait quite some time before you
+ can equip any better weapon runes.
+\end_layout
+
+\begin_layout Standard
+And by the time you make progress to +30% damage runes, dungeons will be
+ so difficult that those won't help you clear more than a few dungeon floors.
+ In fact even the maximum of +60% damage bonus does not help too much.
+ At best it will assist you to clear several floors and gain 1-2 levels.
+\end_layout
+
+\begin_layout Section
+Fastest way possible to reach max rune bonuses
+\end_layout
+
+\begin_layout Standard
+If you want to unlock the max rune bonuses in the fastest way possible,
+ you need to buy absolutely all boosts, including the platinum ones (platinum
+ boosts become available only after you have all speed and gold boosts),
+ and to buy 7-day skips daily for about 100 days.
+\end_layout
+
+\begin_layout Standard
+It costs 4300 mushrooms to buy all of them (including platinum boosts) and
+ about 3000 mushrooms to buy enough 7-day skips.
+ Of course that is expensive and not worth it.
+ You can buy much less boosts and skips, and still reach the maximum bonuses
+ in 6-12 months.
 \end_layout
 
 \begin_layout Section
@@ -3593,15 +3818,54 @@ Getting 7-day skip offers daily
 \end_layout
 
 \begin_layout Standard
-TODO:
+There is a trick to force 7-day skips daily:
 \end_layout
 
-\begin_layout Section
-What 1000+ runes give you
+\begin_layout Enumerate
+Set an alarm about 1-2 hours before next arena offer.
 \end_layout
 
-\begin_layout Standard
-TODO:
+\begin_layout Enumerate
+When alarm rings, sacrifice arena progress, and only upgrade the seat, and
+ the attractions that you already have both boosts for (eg.
+ monster and toilet only).
+\end_layout
+
+\begin_layout Enumerate
+Set another alarm for 1 minute after next arena offer.
+\end_layout
+
+\begin_layout Enumerate
+When alarm rings, open the offer (it is important to open the offer before
+ improving other attractions, as offer is calculated the moment you open
+ it, not when time expires).
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Merchant can only offer you boosts for attractions that you are currently
+ developing
+\series default
+, so he will be forced to offer you either a boost for the seat or offers
+ for skips.
+\end_layout
+
+\begin_layout Enumerate
+If there is a 7-day skip, don't rush to buy the offer.
+\end_layout
+
+\begin_layout Enumerate
+Set another alarm for 15-30 minutes before the offer expires.
+\end_layout
+
+\begin_layout Enumerate
+Immediately start increasing all attractions in order to develop them as
+ much as possible before accepting the 7-day skip.
+\end_layout
+
+\begin_layout Enumerate
+When alarm fires buy the 7-day skip.
 \end_layout
 
 \begin_layout Section
@@ -3609,7 +3873,130 @@ What runes to choose for equipment
 \end_layout
 
 \begin_layout Standard
-TODO:
+Every player should have three sets of items (gear):
+\end_layout
+
+\begin_layout Itemize
+main/fighting set - with runes for fights
+\end_layout
+
+\begin_layout Itemize
+questing set - with runes for quests
+\end_layout
+
+\begin_layout Itemize
+shopping set - for refreshing shops and Legendary Dungeon
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The main/fighting set
+\series default
+ should have items with total of '+15% hitpoint' runes.
+ If you have unlocked 5% hitpoint runes (some time after 1 Nonillion), you
+ need only 3 items with such a rune, and can use the rest slots for other
+ runes ('+Improved item quality' is the next best):
+\end_layout
+
+\begin_layout Itemize
+3 items with '+5% Hit point' runes
+\end_layout
+
+\begin_layout Itemize
+3 items with '+2 Improved item' quality
+\end_layout
+
+\begin_layout Itemize
+2 items with resistance (or you can keep those 2 with hit point runes too,
+ so you don't have to swap runes that often).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The questing set
+\series default
+ should contain items with a total of '+10% XP bonus' and '+50% Gold bonus'
+ (the maximum allowed).
+ The '+XP bonus' runes are more important than '+Gold bonus' ones, so if
+ you can't have both yet, focus on the XP ones.
+\end_layout
+
+\begin_layout Standard
+It doesn't take much time to unlock '+3% XP bonus' runes.
+ When that happens (after 10 Septillion) the questing set should contain:
+\end_layout
+
+\begin_layout Itemize
+2 items with '+3% XP bonus' runes
+\end_layout
+
+\begin_layout Itemize
+2 items with '+2% XP bonus' runes
+\end_layout
+
+\begin_layout Itemize
+4 items with '+12-13% Gold bonus' runes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+The Shopping set
+\series default
+ should contain items with total of '+5 Improved item quality' and '+50%
+ Chance of epics', and again, improved item quality is more important than
+ increased chance of epics, so if you can't have both, focus on the first
+ one.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Once you hit 100+ Quindecillion runes
+\series default
+, you can completely get rid of the questing set, as you can equip your
+ main/fighting gear with both:
+\end_layout
+
+\begin_layout Itemize
+2 items with '+7-8% Hit point'
+\end_layout
+
+\begin_layout Itemize
+2 items with '+2-3 Improved item quality'
+\end_layout
+
+\begin_layout Itemize
+2 items with '+5% XP bonus'
+\end_layout
+
+\begin_layout Itemize
+2 items with '+25% Gold bonus'
+\end_layout
+
+\begin_layout Standard
+Note you still need to keep 2 items with '+25% Chance of epics' runes to
+ use when refreshing shops.
+ Ideally the type of those items should be different than the ones with
+ '+Improved item quality', so you can equip both when refreshing shops.
+\end_layout
+
+\begin_layout Section
+Using the Mannequin
+\end_layout
+
+\begin_layout Standard
+Once you collect 1000 runes you can find the Mannequin in the weapon shop.
+ It takes a while, so don't expect to find it at the same day, unless you
+ refresh the shop with mushrooms (can take +25 mushrooms).
+\end_layout
+
+\begin_layout Standard
+There is not much to explain about the Mannequin.
+ It's where you put your questing set of items, and you can switch between
+ your main gear and the one on the mannequin with a single click.
 \end_layout
 
 \begin_layout Section
@@ -3617,7 +4004,223 @@ Surviving to max runes
 \end_layout
 
 \begin_layout Standard
-TODO:
+It's good to know when you can expect to have maximum rune bonuses.
+\end_layout
+
+\begin_layout Standard
+Without any skips, if you have both boosts on last two attractions, it will
+ take you about 2 years to reach the max bonuses, as long as you sacrifice
+ +10 times per day.
+ If you sacrifice less often than that, it can take you several months longer.
+\end_layout
+
+\begin_layout Standard
+Situation improves a lot if you can buy some boosts or skips:
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bgroup
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{longtable}[c]{@{}ccc@{}}%
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+caption{Time to max runes 
+\backslash
+label{tab:longtabch41}}
+\backslash
+
+\backslash
+ 
+\backslash
+toprule % table caption, ref label
+\end_layout
+
+\begin_layout Plain Layout
+
+Boosts & 7-day skips & Time needed
+\backslash
+
+\backslash
+   % head first part of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfirsthead      % Definition of 1.
+ table header
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+toprule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{continue table}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Boosts & 7-day skips & Time needed
+\backslash
+
+\backslash
+   % head following parts of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule           % line head body 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endhead      % Definition of all following headers
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+multicolumn{3}{c}{table continues}
+\backslash
+
+\backslash
+ % footer 1.
+ (and more) part(s) of table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+midrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endfoot      % foots of the table without the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+bottomrule
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+endlastfoot  % the last(!!) foot of the table
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+showrowcolors
+\end_layout
+
+\begin_layout Plain Layout
+
+Last 2	&	None	&	2 - 2.5 years
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+rowcolor{green!10}
+\end_layout
+
+\begin_layout Plain Layout
+
+Last 4	&	Often, but not daily	&	6 months
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+All	&	Daily	&	3 months
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{longtable}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+egroup
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -7570,7 +8173,7 @@ E~L~Y~S~I~U~M
 \end_layout
 
 \begin_layout Standard
-Chapter 2, Chapter 5, How to reach level 110+ in 3-4 days
+Chapter 2, Chapters 4-5, How to reach level 110+ in 3-4 days
 \end_layout
 
 \begin_layout Quotation
