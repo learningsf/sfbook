@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.4.1 of the book.
+You are currently reading version 0.4.2 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -7956,6 +7956,13 @@ If you already upgraded Gem Mine to level 10, you might want to extract
  This is another reasons why it is good to keep Gem Mine at level 1 while
  fast-leveling.
  That way you can just sell your old epics and skip for new gems.
+\end_layout
+
+\begin_layout Enumerate
+At level 90 the Blacksmith unlocks.
+ Shame on me, but I sometimes forget that the blacksmith can add gem sockets,
+ and I just keep refreshing the shops for items with sockets...
+ Learn from my mistake...
 \end_layout
 
 \begin_layout Enumerate
