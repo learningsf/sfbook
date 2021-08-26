@@ -6867,11 +6867,36 @@ When changing weapon
 \series bold
 compare only maximum damage
 \series default
-, ignore minimum and average damage.
+ and stats, ignore minimum and average damage.
 \end_layout
 
 \begin_layout Itemize
 If you can't find a good epic weapon, choose one with main stat only.
+\end_layout
+
+\begin_layout Itemize
+At lower levels you can use the following simple formula to calculate what
+ 
+\series bold
+maximum damage to look for in shops
+\series default
+: 
+\shape italic
+\bar under
+MaxDamage = 3 x CharacterLevel + 15
+\shape default
+\bar default
+.
+\end_layout
+
+\begin_layout Itemize
+And the following formula for max item stats to look for: 
+\shape italic
+\bar under
+MaxItemStats = 2 x CharacterLevel
+\shape default
+\bar default
+.
 \end_layout
 
 \begin_layout Itemize
@@ -6893,6 +6918,12 @@ keep base stats in 50/50 ratio
 \begin_layout Itemize
 Only increase luck while it's cheap.
  Having at least 15-20% chance for critical hits is good to have.
+\end_layout
+
+\begin_layout Standard
+Note that finding items in shops with maximum possible damage or stats is
+ expensive, so if you are given something relatively close to that, just
+ take it.
 \end_layout
 
 \begin_layout Subsection*
@@ -7043,15 +7074,6 @@ Equip your character with all items (except Talisman, you can't buy it from
  the shop before level 15).
  At level 10 you can find items with +20 stats (total main+constitution),
  but you need to refresh the shops much more to find those.
- Actually you can use the following simple rule to determine what are the
- maximum stats of items you can find in shops: 
-\shape italic
-\bar under
-MaxItemStats = 2 x CharacterLevel
-\shape default
-\bar default
-.
- This is not precise, but is good enough in practice.
 \end_layout
 
 \begin_layout Enumerate
