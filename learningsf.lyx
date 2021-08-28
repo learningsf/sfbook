@@ -389,7 +389,7 @@ The intended audience of this book are beginner and semi-advanced players,
 \end_layout
 
 \begin_layout Standard
-You are currently reading version 0.4.3 of the book.
+You are currently reading version 0.4.4 of the book.
  To get the latest text go to 
 \bar under
 https://github.com/learningsf/sfbook
@@ -6886,7 +6886,7 @@ maximum damage to look for in shops
 MaxDamage = 3 x CharacterLevel + 15
 \shape default
 \bar default
-.
+ (for scout weapons multiply by 1.25, and for mage weapons by 2.25).
 \end_layout
 
 \begin_layout Itemize
@@ -7094,13 +7094,16 @@ Start attacking players in the Hall of fame in order to fill the album.
 \begin_layout Enumerate
 Your goal 
 \series bold
-at level 10 is to fill about 25% of album
+at level 10 is to fill minimum 25% of album
 \series default
  before touching quests.
  If you want to have more than that, you need to raise your stats enough,
  so that you are able to defeat higher level players.
- That might be expensive, so you can stop around 25% (550 stickers) and
- continue improving album to +40% at level 15 (when you equip better potions).
+ You can even reach close to 40% album before doing any quests, but it's
+ expensive.
+ So, better stop around 25% (550 stickers) and continue improving album
+ to +40% some time after level 15 (when you can find medium potions without
+ too many refreshes).
 \end_layout
 
 \begin_layout Enumerate
@@ -8153,9 +8156,331 @@ completely ignore the companions until around level 150-160
 How to reach level 200+ in 3 days
 \end_layout
 
+\begin_layout Subsection*
+TLDR
+\end_layout
+
 \begin_layout Standard
-TODO: Actually I would not try to write that.
- Any volunteers?
+To save you time, this section only list some key differences from the previous
+ guide (for level 110 in 3-4 days).
+ So for best results, read the other guide first.
+\end_layout
+
+\begin_layout Standard
+It's cheapest to achieve this with a berserker.
+ Experienced players can do it with 10K mushrooms (requires full mushroomer
+ guild with ~300 HoK at end of day 1).
+ First-timers will probably need around 15K.
+\end_layout
+
+\begin_layout Standard
+And if you use another class, prepare to be blocked on mages in dungeons,
+ which will cost you much more to pass.
+ If you've never done that before, the cost with a scout or druid can reach
+ 20-30K mushrooms.
+ Doing it with warrior/mage/battle mage can easily cost the same type of
+ player 40-50K mushrooms.
+\end_layout
+
+\begin_layout Standard
+Wasting mushrooms is pointless in general, but doing it with a deamon hunter
+ would be next level blunder.
+ The deamon hunter class is considered inferior to all others, so don't
+ invest mushrooms in that.
+\end_layout
+
+\begin_layout Subsubsection*
+Day 1:
+\end_layout
+
+\begin_layout Standard
+Goal for first day is level 44-45 and album close to 55%.
+\end_layout
+
+\begin_layout Itemize
+When looking for new weapon/items in the shop, use the following formulas
+ to decide, if the items offered are worth the gold:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Maximum weapon damage (not average): 
+\shape italic
+\bar under
+MaxDamage = 3 x CharacterLevel + 15
+\shape default
+\bar default
+ (for scout weapons multiply by 1.25, and for mage weapons by 2.25).
+\end_layout
+
+\begin_layout Itemize
+Maximum stats of single-stat items: 
+\shape italic
+\bar under
+MaxItemStats = 2 x CharacterLevel
+\shape default
+\bar default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Only use Wheel of Fortune at the end of each day.
+\end_layout
+
+\begin_layout Itemize
+At level 10 farm gold, up base stats, buy small potions and find the best
+ possible equipment in shops.
+\end_layout
+
+\begin_layout Itemize
+You need equipment that would give you much more main stat than consitutution.
+ The ratio of your total stats should be at least 60:40, even 70:30.
+\end_layout
+
+\begin_layout Itemize
+Improve album to at least 25%.
+\end_layout
+
+\begin_layout Itemize
+Do as few quests as needed to find key for first dungeon.
+\end_layout
+
+\begin_layout Itemize
+Farm more gold and improve stats enough to reach level 12+ with dungeons
+ only.
+ Always tryhard dungeons before doing any further quests.
+\end_layout
+
+\begin_layout Itemize
+At level 12 buy medium potions (chance is low, and it's expensive, but is
+ possible).
+\end_layout
+
+\begin_layout Itemize
+Find the best possible equipment in shops.
+\end_layout
+
+\begin_layout Itemize
+Before doing any other quests, you need to collect at least 40% of album.
+ If you are not strong enough to defeat higher level players that have newer
+ items, farm more gold and improve base stats more.
+ It's possible to reach ~40% of stickers at level 12, but not immediately
+ at server start.
+ You will need to continue improving album until 1-2 hours before server
+ reset time.
+ Later in the evening impatient players will have already played their thirst/du
+ngeons, so there will be more item stickers available.
+\end_layout
+
+\begin_layout Itemize
+Always play thirst 1 hours before reset time.
+ Use the rest of the day to improve album, base stats and, if possible to
+ defeat any dungeons.
+\end_layout
+
+\begin_layout Itemize
+At this point you can start doing some quests in between dungeons.
+ Choose only XP quests, as you can farm extra gold in other ways.
+\end_layout
+
+\begin_layout Itemize
+You find keys for first 5 dungeons on quests, at levels 10, 20, 30, 40 and
+ 50.
+ When reach that level, play only shortest quests until you find the key,
+ then focus on the new dungeon that opened.
+\end_layout
+
+\begin_layout Itemize
+Your goal at day 1 is to reach level 40, so you need to save about 150 thirst
+ for the keys at levels 20, 30 and 40 (about 50 thist per key).
+\end_layout
+
+\begin_layout Itemize
+Farm gold and replace equipment every 2-3 levels, and every time you open
+ a new dungeon.
+ For example at level 10, 12, 15, 18, 20, 22, 24).
+\end_layout
+
+\begin_layout Itemize
+Use arena fights only when very close to filling a level.
+ That way you play next quest at higher level.
+\end_layout
+
+\begin_layout Itemize
+In between dungeons and quests, continue improving album.
+ You want around 55% of stickers at the end of the day.
+\end_layout
+
+\begin_layout Itemize
+Don't forget all the easy achievements that give free stats.
+ You get +40 points on all stats for the following early achievements: Buy
+ mushrooms from the dealer; Get Dragon/Griffin mount; Play on different
+ devices; Beat the gambler 3 times in a row; Increase an attribute to 100
+ basis value; Win 10 arena fights in one day; Spend 10 mushrooms on personal
+ guild skill; Reach level 18.
+\end_layout
+
+\begin_layout Itemize
+At level 25, up your main stat and constitution equally, and equip only
+ main stat gems.
+ Use item stats to balance your total stats in a 60:40 or 70:30 ratio.
+\end_layout
+
+\begin_layout Itemize
+After you unlock gems at level 25, you need to farm lots of gold for gems
+ and to push dungeons a lot before doing any quests.
+ If your guild has close to 300 HoK (everyone is level 25 and skipped to
+ HoK 6), you will get gems with +100 stats at level 25, which is a huge
+ boost.
+\end_layout
+
+\begin_layout Itemize
+Keep Gem Mine at level 1 until you reach level 225!
+\end_layout
+
+\begin_layout Itemize
+Don't forget to equip big potions at level 32.
+\end_layout
+
+\begin_layout Itemize
+Save 50 thirst in order to find key for forth dungeon, and continue until
+ level 40.
+\end_layout
+
+\begin_layout Itemize
+You can stop pushing for day 1 around level 44-45 (if not a berserker, stop
+ at level 36-38).
+\end_layout
+
+\begin_layout Itemize
+At end of day 1 (or beginning of day 2) you should have collected about
+ 58-60% of the stickers.
+\end_layout
+
+\begin_layout Subsubsection*
+Day 2:
+\end_layout
+
+\begin_layout Standard
+Goal for day 2 is level 130-140 and album of minimum 66%.
+\end_layout
+
+\begin_layout Itemize
+Again, play thirst 1 hour before reset time (although that way you can't
+ find any daily pets on second day).
+\end_layout
+
+\begin_layout Itemize
+Thanks to epics in shops you make lots of progress after level 50.
+ By only changing epics and spamming dungeons you can reach level 60+.
+\end_layout
+
+\begin_layout Itemize
+Never dismantle or extract gems of epics.
+ Sell epics for gold and skip for new gems instead.
+ That's one of the reasons to keep Gem Mine at level 1.
+\end_layout
+
+\begin_layout Itemize
+The bad news is there is no dungeon at level 60, so you will need to improve
+ your base stats a lot in order to reach level 70 and the next dungeon.
+ Of couse you also need the best gems and equipment possible (definitely
+ an epic weapon with good range and stats).
+ It will take lots of dungeons tries, so save some mushrooms by using the
+ Dungeon simulator of mar21 to see if your improvements are good enough
+ to defeat the next dungeon floor.
+\end_layout
+
+\begin_layout Itemize
+You can use some quests, but you need to save about 200 thirst for:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+50 thirst to find the pet nest at level 75
+\end_layout
+
+\begin_layout Itemize
+100 thirst to find dungeon keys at level 80 and 95
+\end_layout
+
+\begin_layout Itemize
+up to 50 thirst to find a few of the pets for your main stat and const (Water
+ and Shadow pets for berserker).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+The good news is that at level 70 you don't waste thirst to find the key
+ for the 6th dungeon, and instead you can buy it from the Magic Shop.
+\end_layout
+
+\begin_layout Itemize
+At level 75 find the pet nest and try to use up to 50 thirst for finding
+ a few of the important pets for your class.
+ Some pets can be found only during the day, while others can be found only
+ in evenings, so plan when to play that 50 thirst.
+\end_layout
+
+\begin_layout Itemize
+Don't forget to also fight in pet dungeons, as they give lots of XP and
+ some gold.
+\end_layout
+
+\begin_layout Itemize
+Fight pets of other players, but carefully select weaker opponents, as you
+ don't want to lose fruits.
+\end_layout
+
+\begin_layout Itemize
+Remember to buy key for dungeon 9 from Weapon Shop at level 110 and not
+ to waste thirst for that.
+\end_layout
+
+\begin_layout Itemize
+At level 125 skip gems to find key to Shadow World/Dungeons.
+\end_layout
+
+\begin_layout Itemize
+Clear as much of Twister as possible and use all gold on stats.
+\end_layout
+
+\begin_layout Itemize
+Don't equip anything to companions yet.
+ They are useless before level 140, so better sell the Twister items for
+ gold, and increase base stats with that gold (changing equipment only is
+ not enough).
+\end_layout
+
+\begin_layout Subsubsection*
+Day 3:
+\end_layout
+
+\begin_layout Itemize
+This time, start playing shortly before 17:30 (server time), so you can
+ find the relevant daily pets you are missing.
+\end_layout
+
+\begin_layout Itemize
+After you find those pets, stop playing any thirst and continue 1 hour before
+ reset time.
+\end_layout
+
+\begin_layout Itemize
+Make sure to find key to the toilet, while you still have thirst left.
+\end_layout
+
+\begin_layout Itemize
+Some time around level 145 (but before level 150) you can equip companions
+ with socketed items, only with main stat gems.
+ Other gems are useless for companions as they survive only 1-2 hits anyway.
+\end_layout
+
+\begin_layout Itemize
+When close to level 150 you can start defeating first floors of the shadow
+ dungeons.
 \end_layout
 
 \begin_layout Part*
